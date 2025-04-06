@@ -26,14 +26,12 @@ This database enables management of:
 *This diagram shows the high-level entities and their relationships.*
 
 ![VISHWA ER Diagram](path/to/your/erd_diagram.png)
-*<(Replace the path above with the correct path to **your** ERD image file)>*
 
 ### Relational Schema
 
 *This diagram details the specific tables, columns, primary keys (PK), and foreign keys (FK).*
 
-![VISHWA Relational Schema](path/to/your/relational_schema.png)
-*<(Replace the path above with the correct path to **your** Relational Schema image file)>*
+![VISHWA Relational Schema](/DBMS_Relational_Diagram.png)
 
 ---
 
