@@ -1,13 +1,14 @@
 # 🏥 VISHWA: Vital Information System For Health Wellness and Awareness ✨
 
 [![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-blue)](https://www.postgresql.org/)
-<!--[![License: DAIICT](https://img.shields.io/badge/License-DAIICT-yellow.svg)](LICENSE.md)  Ensure you have a LICENSE.md file -->
+<!-- Add other relevant badges if applicable, e.g., License -->
+<!-- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md) -->
 
 ---
 
-## 🎯 Project Purpose
+## 🎯 Objective
 
-**VISHWA** integrates clinical data, research insights, and public health outreach to improve community wellness and awareness. It provides a unified PostgreSQL database structure to manage vital health information, support research activities, and empower awareness campaigns.
+We aim to improve global health care by creating a modern, data-based system that tracks diseases, makes the best use of health resources, and provides real-time health information. **VISHWA** gives doctors, health officials, and researchers the useful information they need to act quickly, focus on prevention, and protect public health worldwide.
 
 ## 🚀 Core Functionality
 
@@ -25,13 +26,21 @@ This database enables management of:
 
 *This diagram shows the high-level entities and their relationships.*
 
-![VISHWA ER Diagram](path/to/your/erd_diagram.png)
+![VISHWA ER Diagram](ER_Diagram.png)
 
 ### Relational Schema
 
 *This diagram details the specific tables, columns, primary keys (PK), and foreign keys (FK).*
 
-![VISHWA Relational Schema](/DBMS_Relational_Diagram.png)
+![VISHWA Relational Schema](DBMS_Relational_Diagram.png)
+
+---
+
+## 👥 Team Members (Project Group No: 2 | Lab Group: 6)
+
+*   **Akshat Bhatt** (Group Representative) - `202301460`
+*   **Maheriya Harsh Prakashbhai** - `202301470`
+*   **Nilesh Mori** - `202301473`
 
 ---
 
@@ -44,8 +53,9 @@ This database enables management of:
 ## ⚙️ Setup
 
 1.  **Prerequisites:** Ensure PostgreSQL is installed and running.
-2.  **Run DDL:** Connect to your PostgreSQL instance and execute the provided `commands.sql` script to create the database structure.
+2.  **Run DDL:** Connect to your PostgreSQL instance and execute the provided `commands.sql` script (referencing the DDL pages in the project documentation) to create the database structure.
     ```bash
+    # Example command:
     psql -U your_username -d your_database_name -f commands.sql
     ```
 
