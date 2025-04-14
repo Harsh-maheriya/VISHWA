@@ -1,0 +1,885 @@
+INSERT INTO App_User (User_ID, Name, Email, Contact_no) VALUES
+('U001', 'John Smith', 'john.smith1@example.com', '5551234567'),
+('U002', 'Emma Johnson', 'emma.johnson2@example.com', '5551234568'),
+('U003', 'Michael Brown', 'michael.brown3@example.com', '5551234569'),
+('U004', 'Sarah Davis', 'sarah.davis4@example.com', '5551234570'),
+('U005', 'David Wilson', 'david.wilson5@example.com', '5551234571'),
+('U006', 'Laura Martinez', 'laura.martinez6@example.com', '5551234572'),
+('U007', 'James Taylor', 'james.taylor7@example.com', '5551234573'),
+('U008', 'Emily Anderson', 'emily.anderson8@example.com', '5551234574'),
+('U009', 'Robert Thomas', 'robert.thomas9@example.com', '5551234575'),
+('U010', 'Lisa Jackson', 'lisa.jackson10@example.com', '5551234576'),
+('U011', 'William White', 'william.white11@example.com', '5551234577'),
+('U012', 'Jennifer Harris', 'jennifer.harris12@example.com', '5551234578'),
+('U013', 'Charles Clark', 'charles.clark13@example.com', '5551234579'),
+('U014', 'Amanda Lewis', 'amanda.lewis14@example.com', '5551234580'),
+('U015', 'Thomas Walker', 'thomas.walker15@example.com', '5551234581'),
+('U016', 'Megan Hall', 'megan.hall16@example.com', '5551234582'),
+('U017', 'Daniel Allen', 'daniel.allen17@example.com', '5551234583'),
+('U018', 'Sophia Young', 'sophia.young18@example.com', '5551234584'),
+('U019', 'Matthew King', 'matthew.king19@example.com', '5551234585'),
+('U020', 'Olivia Scott', 'olivia.scott20@example.com', '5551234586'),
+('U021', 'Andrew Green', 'andrew.green21@example.com', '5551234587'),
+('U022', 'Chloe Adams', 'chloe.adams22@example.com', '5551234588'),
+('U023', 'Steven Baker', 'steven.baker23@example.com', '5551234589'),
+('U024', 'Isabella Nelson', 'isabella.nelson24@example.com', '5551234590'),
+('U025', 'Joseph Carter', 'joseph.carter25@example.com', '5551234591'),
+('U026', 'Mia Mitchell', 'mia.mitchell26@example.com', '5551234592'),
+('U027', 'Ryan Perez', 'ryan.perez27@example.com', '5551234593'),
+('U028', 'Ava Roberts', 'ava.roberts28@example.com', '5551234594'),
+('U029', 'Mark Turner', 'mark.turner29@example.com', '5551234595'),
+('U030', 'Lily Phillips', 'lily.phillips30@example.com', '5551234596'),
+('U031', 'Paul Campbell', 'paul.campbell31@example.com', '5551234597'),
+('U032', 'Grace Parker', 'grace.parker32@example.com', '5551234598'),
+('U033', 'Jack Evans', 'jack.evans33@example.com', '5551234599'),
+('U034', 'Hannah Edwards', 'hannah.edwards34@example.com', '5551234600'),
+('U035', 'Samuel Collins', 'samuel.collins35@example.com', '5551234601'),
+('U036', 'Zoe Stewart', 'zoe.stewart36@example.com', '5551234602'),
+('U037', 'Nathan Sanchez', 'nathan.sanchez37@example.com', '5551234603'),
+('U038', 'Ella Morris', 'ella.morris38@example.com', '5551234604'),
+('U039', 'Benjamin Rogers', 'benjamin.rogers39@example.com', '5551234605'),
+('U040', 'Abigail Reed', 'abigail.reed40@example.com', '5551234606'),
+('U041', 'Lucas Cook', 'lucas.cook41@example.com', '5551234607'),
+('U042', 'Victoria Morgan', 'victoria.morgan42@example.com', '5551234608'),
+('U043', 'Ethan Bell', 'ethan.bell43@example.com', '5551234609'),
+('U044', 'Madison Bailey', 'madison.bailey44@example.com', '5551234610'),
+('U045', 'Alexander Rivera', 'alexander.rivera45@example.com', '5551234611'),
+('U046', 'Samantha Cooper', 'samantha.cooper46@example.com', '5551234612'),
+('U047', 'Tyler Richardson', 'tyler.richardson47@example.com', '5551234613'),
+('U048', 'Natalie Cox', 'natalie.cox48@example.com', '5551234614'),
+('U049', 'Gabriel Howard', 'gabriel.howard49@example.com', '5551234615'),
+('U050', 'Aria Peterson', 'aria.peterson50@example.com', '5551234616'),
+('U051', 'Henry Gray', 'henry.gray51@example.com', '5551234617'),
+('U052', 'Scarlett Hayes', 'scarlett.hayes52@example.com', '5551234618'),
+('U053', 'Dylan Ward', 'dylan.ward53@example.com', '5551234619'),
+('U054', 'Audrey Brooks', 'audrey.brooks54@example.com', '5551234620'),
+('U055', 'Owen Kelly', 'owen.kelly55@example.com', '5551234621'),
+('U056', 'Claire Barnes', 'claire.barnes56@example.com', '5551234622'),
+('U057', 'Luke Henderson', 'luke.henderson57@example.com', '5551234623'),
+('U058', 'Lillian Price', 'lillian.price58@example.com', '5551234624'),
+('U059', 'Isaac Watson', 'isaac.watson59@example.com', '5551234625'),
+('U060', 'Evelyn Wood', 'evelyn.wood60@example.com', '5551234626'),
+('U061', 'Mason Coleman', 'mason.coleman61@example.com', '5551234627'),
+('U062', 'Harper Ross', 'harper.ross62@example.com', '5551234628'),
+('U063', 'Logan Jenkins', 'logan.jenkins63@example.com', '5551234629'),
+('U064', 'Addison Perry', 'addison.perry64@example.com', '5551234630'),
+('U065', 'Elijah Long', 'elijah.long65@example.com', '5551234631'),
+('U066', 'Avery Foster', 'avery.foster66@example.com', '5551234632'),
+('U067', 'Carter Simmons', 'carter.simmons67@example.com', '5551234633'),
+('U068', 'Sofia Bryant', 'sofia.bryant68@example.com', '5551234634'),
+('U069', 'Jayden Griffin', 'jayden.griffin69@example.com', '5551234635'),
+('U070', 'Layla West', 'layla.west70@example.com', '5551234636'),
+('U071', 'Jackson Dunn', 'jackson.dunn71@example.com', '5551234637'),
+('U072', 'Mila Holmes', 'mila.holmes72@example.com', '5551234638'),
+('U073', 'Liam Ortiz', 'liam.ortiz73@example.com', '5551234639'),
+('U074', 'Nora Weaver', 'nora.weaver74@example.com', '5551234640'),
+('U075', 'Wyatt Ford', 'wyatt.ford75@example.com', '5551234641'),
+('U076', 'Hazel Gardner', 'hazel.gardner76@example.com', '5551234642'),
+('U077', 'Levi Hunter', 'levi.hunter77@example.com', '5551234643'),
+('U078', 'Penelope Wells', 'penelope.wells78@example.com', '5551234644'),
+('U079', 'Sebastian Fox', 'sebastian.fox79@example.com', '5551234645'),
+('U080', 'Amelia Sullivan', 'amelia.sullivan80@example.com', '5551234646'),
+('U081', 'Grayson Hart', 'grayson.hart81@example.com', '5551234647'),
+('U082', 'Luna Dean', 'luna.dean82@example.com', '5551234648'),
+('U083', 'Mateo Rose', 'mateo.rose83@example.com', '5551234649'),
+('U084', 'Violet Reynolds', 'violet.reynolds84@example.com', '5551234650'),
+('U085', 'Julian Stone', 'julian.stone85@example.com', '5551234651'),
+('U086', 'Ruby Burke', 'ruby.burke86@example.com', '5551234652'),
+('U087', 'Eli Palmer', 'eli.palmer87@example.com', '5551234653'),
+('U088', 'Aurora Ellis', 'aurora.ellis88@example.com', '5551234654'),
+('U089', 'Caleb Hudson', 'caleb.hudson89@example.com', '5551234655'),
+('U090', 'Freya Andrews', 'freya.andrews90@example.com', '5551234656'),
+('U091', 'Declan Black', 'declan.black91@example.com', '5551234657'),
+('U092', 'Ivy Walsh', 'ivy.walsh92@example.com', '5551234658'),
+('U093', 'Jude Duncan', 'jude.duncan93@example.com', '5551234659'),
+('U094', 'Esme Porter', 'esme.porter94@example.com', '5551234660'),
+('U095', 'Finn Barrett', 'finn.barrett95@example.com', '5551234661'),
+('U096', 'Willow Dixon', 'willow.dixon96@example.com', '5551234662'),
+('U097', 'Theo Grant', 'theo.grant97@example.com', '5551234663'),
+('U098', 'Cora Lane', 'cora.lane98@example.com', '5551234664'),
+('U099', 'Miles Harper', 'miles.harper99@example.com', '5551234665'),
+('U100', 'Lila Jordan', 'lila.jordan100@example.com', '5551234666');
+
+INSERT INTO Staff_role (role_id, role_name) VALUES
+('R001', 'Physician'),
+('R002', 'Nurse'),
+('R003', 'Surgeon'),
+('R004', 'Pharmacist'),
+('R005', 'Lab Technician'),
+('R006', 'Radiologist'),
+('R007', 'Anesthesiologist'),
+('R008', 'Physical Therapist'),
+('R009', 'Medical Assistant'),
+('R010', 'Dietitian'),
+('R011', 'Paramedic'),
+('R012', 'Respiratory Therapist'),
+('R013', 'Psychiatrist'),
+('R014', 'Cardiologist'),
+('R015', 'Administrator');
+
+INSERT INTO Medical_Center (Medical_center_ID, Medical_center_name, Address) VALUES
+('MC001', 'City General Hospital', '123 Elm Street, Springfield, IL 62701'),
+('MC002', 'Sunrise Medical Clinic', '456 Oak Avenue, Riverside, CA 92501'),
+('MC003', 'Hope Regional Medical Center', '789 Pine Road, Boulder, CO 80301'),
+('MC004', 'Green Valley Hospital', '101 Maple Lane, Austin, TX 78701'),
+('MC005', 'Riverfront Health Center', '202 Cedar Drive, Portland, OR 97201'),
+('MC006', 'Unity Medical Facility', '303 Birch Street, Charlotte, NC 28201'),
+('MC007', 'Starlight Community Hospital', '404 Willow Way, Miami, FL 33101'),
+('MC008', 'Haven Clinic', '505 Spruce Court, Seattle, WA 98101'),
+('MC009', 'Brighton Medical Center', '606 Chestnut Boulevard, Boston, MA 02101'),
+('MC010', 'Lakeside General Hospital', '707 Magnolia Place, Chicago, IL 60601'),
+('MC011', 'Evergreen Health Hub', '808 Laurel Street, Denver, CO 80201'),
+('MC012', 'Harmony Medical Institute', '909 Sycamore Road, Atlanta, GA 30301'),
+('MC013', 'Summit Care Hospital', '1010 Aspen Lane, Phoenix, AZ 85001'),
+('MC014', 'Crestview Clinic', '1111 Poplar Avenue, San Diego, CA 92101'),
+('MC015', 'Beacon Health System', '1212 Hazel Drive, Nashville, TN 37201'),
+('MC016', 'Trinity Medical Center', '1313 Redwood Circle, Houston, TX 77001'),
+('MC017', 'Meadowview Hospital', '1414 Olive Street, Las Vegas, NV 89101'),
+('MC018', 'Northstar Medical Plaza', '1515 Linden Way, Minneapolis, MN 55401'),
+('MC019', 'Golden Gate Health Center', '1616 Walnut Road, San Francisco, CA 94101'),
+('MC020', 'Prairie Medical Facility', '1717 Fir Avenue, Kansas City, MO 64101'),
+('MC021', 'Horizon Clinic', '1818 Hemlock Lane, Philadelphia, PA 19101'),
+('MC022', 'Blue Ridge Hospital', '1919 Dogwood Drive, Raleigh, NC 27601'),
+('MC023', 'Cedar Grove Medical Center', '2020 Ivy Street, Salt Lake City, UT 84101'),
+('MC024', 'Metro Health Institute', '2121 Juniper Boulevard, New York, NY 10001'),
+('MC025', 'Silver Lake Clinic', '2222 Myrtle Court, Los Angeles, CA 90001'),
+('MC026', 'Pinecrest Medical Center', '2323 Alder Road, Orlando, FL 32801'),
+('MC027', 'Mountain View Hospital', '2424 Sage Street, Boise, ID 83701'),
+('MC028', 'Coastal Care Clinic', '2525 Palm Avenue, Savannah, GA 31401'),
+('MC029', 'Liberty Health System', '2626 Hickory Lane, Columbus, OH 43201'),
+('MC030', 'Sunset Medical Hub', '2727 Laurel Place, Tucson, AZ 85701'),
+('MC031', 'Valley General Hospital', '2828 Magnolia Drive, Omaha, NE 68101'),
+('MC032', 'Riverside Clinic', '2929 Oakwood Road, Louisville, KY 40201'),
+('MC033', 'Aurora Medical Center', '3030 Willow Circle, Madison, WI 53701'),
+('MC034', 'Starview Health Facility', '3131 Cedar Lane, Anchorage, AK 99501'),
+('MC035', 'Heritage Hospital', '3232 Maple Street, Richmond, VA 23201'),
+('MC036', 'Skyline Medical Plaza', '3333 Pine Court, Oklahoma City, OK 73101'),
+('MC037', 'Twilight Care Center', '3434 Elm Avenue, Honolulu, HI 96801'),
+('MC038', 'Brightview Clinic', '3535 Birch Road, Memphis, TN 38101'),
+('MC039', 'Summit General Hospital', '3636 Spruce Drive, Albuquerque, NM 87101'),
+('MC040', 'Clearwater Health Center', '3737 Chestnut Lane, Jacksonville, FL 32201'),
+('MC041', 'Highland Medical Institute', '3838 Poplar Street, Indianapolis, IN 46201'),
+('MC042', 'Westwood Hospital', '3939 Hazel Boulevard, Sacramento, CA 95801'),
+('MC043', 'Oakridge Clinic', '4040 Linden Avenue, Birmingham, AL 35201'),
+('MC044', 'Sunridge Medical Center', '4141 Redwood Place, Cleveland, OH 44101'),
+('MC045', 'Canyon Health Hub', '4242 Sycamore Lane, Milwaukee, WI 53201'),
+('MC046', 'Lakeshore Hospital', '4343 Aspen Drive, Providence, RI 02901'),
+('MC047', 'Greenwood Medical Facility', '4444 Fir Street, Des Moines, IA 50301'),
+('MC048', 'Vista Care Clinic', '4545 Walnut Avenue, Little Rock, AR 72201'),
+('MC049', 'Unity General Hospital', '4646 Olive Road, Charleston, SC 29401'),
+('MC050', 'Harborview Health Center', '4747 Myrtle Lane, Burlington, VT 05401');
+
+
+INSERT INTO Manufacturer (Manufacturer_ID, Production_capacity, No_of_workers, Name, Address, Email) VALUES
+('M001', '100000 units', 500, 'BioSynth Pharma', '101 Industrial Way, Princeton, NJ 08540', 'contact@biosynthpharma.com'),
+('M002', '200000 units', 750, 'NovaMed Solutions', '202 Factory Rd, Irvine, CA 92618', 'info@novamedsolutions.com'),
+('M003', '150000 units', 600, 'VitalCure Industries', '303 Production Ave, Raleigh, NC 27616', 'support@vitalcure.com'),
+('M004', '300000 units', 900, 'HealthWave Biotech', '404 Biotech Lane, Boston, MA 02134', 'sales@healthwavebiotech.com'),
+('M005', '120000 units', 450, 'PureLife Pharmaceuticals', '505 Science Dr, Chicago, IL 60616', 'inquiries@purelifepharma.com'),
+('M006', '250000 units', 800, 'MedCore Labs', '606 Manufacturing St, San Diego, CA 92121', 'info@medcorelabs.com'),
+('M007', '180000 units', 550, 'StarPharma Inc', '707 Industrial Park, Seattle, WA 98108', 'contact@starpharma.com'),
+('M008', '400000 units', 1200, 'GlobalHeal Biotech', '808 Factory Blvd, Houston, TX 77029', 'support@globalheal.com'),
+('M009', '140000 units', 400, 'CureTrend Innovations', '909 Tech Way, Durham, NC 27709', 'sales@curetrend.com'),
+('M010', '220000 units', 700, 'LifeSynth Enterprises', '1010 Production Ct, Miami, FL 33166', 'info@lifesynth.com'),
+('M011', '160000 units', 500, 'BioPeak Pharma', '1111 Industry Rd, Denver, CO 80239', 'contact@biopeakpharma.com'),
+('M012', '280000 units', 850, 'VitaNova Labs', '1212 Biotech Ave, Atlanta, GA 30318', 'inquiries@vitanova.com'),
+('M013', '130000 units', 350, 'Healix Medical', '1313 Factory Lane, Phoenix, AZ 85040', 'support@healixmedical.com'),
+('M014', '350000 units', 1000, 'PrimeCure Industries', '1414 Science Park, San Francisco, CA 94124', 'sales@primecure.com'),
+('M015', '170000 units', 600, 'MediSynth Solutions', '1515 Industrial Dr, Philadelphia, PA 19154', 'info@medisynth.com'),
+('M016', '240000 units', 720, 'BioForge Pharma', '1616 Production Way, Los Angeles, CA 90023', 'contact@bioforgepharma.com'),
+('M017', '190000 units', 580, 'NovaCure Biotech', '1717 Tech Blvd, Minneapolis, MN 55413', 'support@novacure.com'),
+('M018', '320000 units', 950, 'HealthCore Labs', '1818 Factory Rd, New York, NY 10018', 'inquiries@healthcore.com'),
+('M019', '150000 units', 420, 'PureSynth Medical', '1919 Industrial Ct, Portland, OR 97220', 'sales@puresynthmedical.com'),
+('M020', '260000 units', 780, 'LifeWave Pharma', '2020 Biotech Dr, Nashville, TN 37211', 'info@lifewavepharma.com'),
+('M021', '200000 units', 650, 'CurePeak Innovations', '2121 Science Lane, Dallas, TX 75235', 'contact@curepeak.com'),
+('M022', '340000 units', 1100, 'MediCore Enterprises', '2222 Production Ave, Baltimore, MD 21224', 'support@medicore.com'),
+('M023', '180000 units', 480, 'BioTrend Labs', '2323 Factory Way, Orlando, FL 32810', 'inquiries@biotrend.com'),
+('M024', '290000 units', 820, 'VitaCure Biotech', '2424 Tech Rd, Cleveland, OH 44125', 'sales@vitacure.com'),
+('M025', '210000 units', 620, 'StarCure Pharma', '2525 Industrial Blvd, St. Louis, MO 63139', 'info@starcurepharma.com'),
+('M026', '360000 units', 1050, 'GlobalSynth Medical', '2626 Biotech Ct, Kansas City, MO 64116', 'contact@globalsynth.com'),
+('M027', '140000 units', 390, 'HealWave Solutions', '2727 Science Dr, Indianapolis, IN 46241', 'support@healwave.com'),
+('M028', '270000 units', 760, 'LifeCore Industries', '2828 Production Lane, Salt Lake City, UT 84104', 'inquiries@lifecore.com'),
+('M029', '230000 units', 680, 'BioNova Pharma', '2929 Factory Ave, Cincinnati, OH 45212', 'sales@bionova.com'),
+('M030', '380000 units', 1150, 'PrimeSynth Labs', '3030 Tech Park, Memphis, TN 38118', 'info@primesynth.com'),
+('M031', '160000 units', 430, 'MediPeak Biotech', '3131 Industrial Way, Columbus, OH 43207', 'contact@medipeak.com'),
+('M032', '310000 units', 920, 'VitaTrend Medical', '3232 Science Blvd, Louisville, KY 40216', 'support@vitarend.com'),
+('M033', '190000 units', 560, 'CureNova Enterprises', '3333 Factory Rd, Oklahoma City, OK 73108', 'inquiries@curenova.com'),
+('M034', '250000 units', 740, 'HealthSynth Pharma', '3434 Biotech Lane, Richmond, VA 23224', 'sales@healthsynth.com'),
+('M035', '200000 units', 600, 'BioCure Labs', '3535 Production Dr, Birmingham, AL 35242', 'info@biocurelabs.com'),
+('M036', '330000 units', 980, 'StarWave Medical', '3636 Tech Ct, Jacksonville, FL 32256', 'contact@starwave.com'),
+('M037', '170000 units', 470, 'PureCure Solutions', '3737 Industrial Ave, Milwaukee, WI 53215', 'support@purecure.com'),
+('M038', '280000 units', 830, 'LifeTrend Biotech', '3838 Science Way, Sacramento, CA 95834', 'inquiries@lifetrend.com'),
+('M039', '240000 units tends', 710, 'NovaPeak Pharma', '3939 Factory Lane, Tucson, AZ 85714', 'sales@novapeak.com'),
+('M040', '390000 units', 1200, 'GlobalCure Industries', '4040 Biotech Rd, Omaha, NE 68117', 'info@globalcure.com'),
+('M041', '150000 units', 410, 'MediWave Labs', '4141 Production Ct, Albuquerque, NM 87109', 'contact@mediwave.com'),
+('M042', '300000 units', 870, 'VitaSynth Enterprises', '4242 Tech Dr, Providence, RI 02908', 'support@vitasynth.com'),
+('M043', '220000 units', 640, 'HealCore Medical', '4343 Industrial Way, Des Moines, IA 50313', 'inquiries@healcore.com'),
+('M044', '350000 units', 1000, 'BioStar Pharma', '4444 Science Ave, Little Rock, AR 72204', 'sales@biostarpharma.com'),
+('M045', '180000 units', 520, 'CureSynth Biotech', '4545 Factory Blvd, Charleston, SC 29405', 'info@curesynth.com'),
+('M046', '260000 units', 770, 'LifePeak Labs', '4646 Biotech Lane, Burlington, VT 05401', 'contact@lifepeak.com'),
+('M047', '320000 units', 960, 'StarCure Enterprises', '4747 Production Rd, Anchorage, AK 99518', 'support@starcure.com'),
+('M048', '210000 units', 590, 'PureNova Medical', '4848 Tech Way, Savannah, GA 31405', 'inquiries@purenova.com'),
+('M049', '340000 units', 1030, 'GlobalTrend Pharma', '4949 Industrial Ct, Boise, ID 83705', 'sales@globaltrend.com'),
+('M050', '230000 units', 670, 'VitaCore Solutions', '5050 Science Dr, Honolulu, HI 96813', 'info@vitacore.com');
+
+INSERT INTO Medical_resource_type (Resource_type_ID, Resource_type_name, Resource_type_description) VALUES
+('RT001', 'Syringe', 'Disposable syringe for injections, various sizes'),
+('RT002', 'Ventilator', 'Mechanical ventilator for respiratory support'),
+('RT003', 'Surgical Mask', 'Disposable mask for infection control'),
+('RT004', 'Gloves', 'Sterile latex or nitrile gloves for medical use'),
+('RT005', 'IV Catheter', 'Catheter for intravenous fluid administration'),
+('RT006', 'Defibrillator', 'Device for cardiac arrhythmia correction'),
+('RT007', 'Bandage', 'Sterile bandage for wound dressing'),
+('RT008', 'Thermometer', 'Digital thermometer for body temperature measurement'),
+('RT009', 'Oxygen Tank', 'Portable oxygen cylinder for respiratory therapy'),
+('RT010', 'Ultrasound Machine', 'Diagnostic imaging device using sound waves'),
+('RT011', 'N95 Respirator', 'High-filtration mask for airborne protection'),
+('RT012', 'Surgical Gown', 'Sterile gown for operating room use'),
+('RT013', 'ECG Machine', 'Electrocardiogram device for heart monitoring'),
+('RT014', 'Needle', 'Sterile needle for injections or blood draws'),
+('RT015', 'Blood Pressure Monitor', 'Device for measuring blood pressure'),
+('RT016', 'Gauze', 'Sterile gauze for wound care and absorption'),
+('RT017', 'Pulse Oximeter', 'Device for measuring blood oxygen levels'),
+('RT018', 'Stethoscope', 'Acoustic device for listening to internal sounds'),
+('RT019', 'Wheelchair', 'Mobility aid for patients with limited movement'),
+('RT020', 'IV Fluid Bag', 'Saline or dextrose solution for hydration'),
+('RT021', 'X-Ray Machine', 'Imaging device for bone and tissue diagnostics'),
+('RT022', 'Face Shield', 'Protective shield for facial exposure prevention'),
+('RT023', 'Suture Kit', 'Sterile kit for wound closure'),
+('RT024', 'Infusion Pump', 'Device for controlled IV medication delivery'),
+('RT025', 'Antiseptic Solution', 'Solution for disinfecting skin or surfaces'),
+('RT026', 'Crutches', 'Mobility aid for leg injury support'),
+('RT027', 'Test Tube', 'Container for blood or fluid sample collection'),
+('RT028', 'Pipette', 'Tool for precise liquid measurement in labs'),
+('RT029', 'CT Scanner', 'Advanced imaging for detailed internal diagnostics'),
+('RT030', 'Medical Tape', 'Adhesive tape for securing dressings or devices');
+
+INSERT INTO Patient (Patient_ID, Name, Contact_no, Gender, General_info) VALUES
+('P001', 'Alice Carter', '5552345678', 'Female', 'No known allergies, regular check-ups'),
+('P002', 'Brian Foster', '5552345679', 'Male', 'History of seasonal allergies'),
+('P003', 'Clara Nguyen', '5552345680', 'Female', 'Non-smoker, active lifestyle'),
+('P004', 'Derek Patel', '5552345681', 'Male', 'Family history of hypertension'),
+('P005', 'Elise Wong', '5552345682', 'Female', 'Vegetarian diet, no medications'),
+('P006', 'Felix Ortiz', '5552345683', 'Male', 'Mild asthma, uses inhaler'),
+('P007', 'Grace Kim', '5552345684', 'Female', 'Recent flu recovery, healthy otherwise'),
+('P008', 'Henry Diaz', '5552345685', 'Male', 'Wears glasses, no chronic issues'),
+('P009', 'Isla Gupta', '5552345686', 'Female', 'Allergic to penicillin'),
+('P010', 'Jasper Reed', '5552345687', 'Male', 'Regular jogger, good health'),
+('P011', 'Kiera Brooks', '5552345688', 'Female', 'History of migraines'),
+('P012', 'Liam Hayes', '5552345689', 'Male', 'No allergies, annual physicals'),
+('P013', 'Maya Chen', '5552345690', 'Female', 'Low iron levels, on supplements'),
+('P014', 'Noah Silva', '5552345691', 'Male', 'Recovering from ankle sprain'),
+('P015', 'Olivia Ford', '5552345692', 'Female', 'Family history of diabetes'),
+('P016', 'Parker Lane', '5552345693', 'Male', 'Allergic to shellfish'),
+('P017', 'Quinn Meyer', '5552345694', 'Other', 'Vegan diet, no health concerns'),
+('P018', 'Riley Vaughn', '5552345695', 'Female', 'Occasional back pain'),
+('P019', 'Seth Kumar', '5552345696', 'Male', 'No medications, healthy diet'),
+('P020', 'Tara Holt', '5552345697', 'Female', 'History of eczema'),
+('P021', 'Victor Chang', '5552345698', 'Male', 'Wears contact lenses'),
+('P022', 'Willow Park', '5552345699', 'Female', 'Allergic to pet dander'),
+('P023', 'Xander Ruiz', '5552345700', 'Male', 'Recent dental surgery'),
+('P024', 'Yara Becker', '5552345701', 'Female', 'No chronic conditions'),
+('P025', 'Zane Fisher', '5552345702', 'Male', 'Regular gym-goer, healthy'),
+('P026', 'Amara Klein', '5552345703', 'Female', 'Mild seasonal allergies'),
+('P027', 'Bennett Cox', '5552345704', 'Male', 'History of minor fractures'),
+('P028', 'Cora Walsh', '5552345705', 'Female', 'On vitamin D supplements'),
+('P029', 'Declan Soto', '5552345706', 'Male', 'No health issues reported'),
+('P030', 'Esme Grant', '5552345707', 'Female', 'Family history of heart disease'),
+('P031', 'Finn Doyle', '5552345708', 'Male', 'Allergic to dust mites'),
+('P032', 'Gemma Stone', '5552345709', 'Female', 'Recent cold, fully recovered'),
+('P033', 'Hugo Blair', '5552345710', 'Male', 'Wears hearing aid'),
+('P034', 'Ivy Marsh', '5552345711', 'Female', 'No allergies, active'),
+('P035', 'Jude Perry', '5552345712', 'Male', 'History of knee injury'),
+('P036', 'Kyla Boone', '5552345713', 'Female', 'Lactose intolerant'),
+('P037', 'Levi Dunn', '5552345714', 'Male', 'No medications, good health'),
+('P038', 'Mira Tate', '5552345715', 'Female', 'Occasional insomnia'),
+('P039', 'Nico Frost', '5552345716', 'Male', 'Allergic to aspirin'),
+('P040', 'Opal Wade', '5552345717', 'Female', 'Family history of arthritis'),
+('P041', 'Reid Cohen', '5552345718', 'Male', 'Recent blood work normal'),
+('P042', 'Siena Lowe', '5552345719', 'Female', 'Mild hay fever'),
+('P043', 'Theo Mack', '5552345720', 'Male', 'No chronic issues'),
+('P044', 'Uma Neal', '5552345721', 'Female', 'On calcium supplements'),
+('P045', 'Vera Hunt', '5552345722', 'Female', 'History of tonsillitis'),
+('P046', 'Wes Pope', '5552345723', 'Male', 'Allergic to latex'),
+('P047', 'Zoe Ball', '5552345724', 'Female', 'Regular yoga practitioner'),
+('P048', 'Axel Dean', '5552345725', 'Male', 'No health concerns'),
+('P049', 'Bryn Shaw', '5552345726', 'Female', 'Family history of glaucoma'),
+('P050', 'Cade York', '5552345727', 'Male', 'Recent flu shot'),
+('P051', 'Dina Webb', '5552345728', 'Female', 'Mild acid reflux'),
+('P052', 'Evan Gill', '5552345729', 'Male', 'Wears braces'),
+('P053', 'Faye Kerr', '5552345730', 'Female', 'Allergic to pollen'),
+('P054', 'Gage Paul', '5552345731', 'Male', 'No allergies, healthy'),
+('P055', 'Hana Rice', '5552345732', 'Female', 'History of ear infections'),
+('P056', 'Idris Cole', '5552345733', 'Male', 'Non-smoker, active'),
+('P057', 'Jada Moon', '5552345734', 'Female', 'On iron supplements'),
+('P058', 'Knox Hart', '5552345735', 'Male', 'Recent sprained wrist'),
+('P059', 'Lila Bond', '5552345736', 'Female', 'Family history of cancer'),
+('P060', 'Milo Beck', '5552345737', 'Male', 'Allergic to nuts'),
+('P061', 'Nia Cruz', '5552345738', 'Female', 'Occasional headaches'),
+('P062', 'Oren Fox', '5552345739', 'Male', 'No medications'),
+('P063', 'Pia Hale', '5552345740', 'Female', 'Mild psoriasis'),
+('P064', 'Quin Rose', '5552345741', 'Male', 'Recent eye exam normal'),
+('P065', 'Rhea Cain', '5552345742', 'Female', 'Allergic to sulfa drugs'),
+('P066', 'Saul Ward', '5552345743', 'Male', 'Regular swimmer, healthy'),
+('P067', 'Tina Lake', '5552345744', 'Female', 'History of anemia'),
+('P068', 'Uri Gray', '5552345745', 'Male', 'No chronic conditions'),
+('P069', 'Veda Moss', '5552345746', 'Female', 'On allergy medication'),
+('P070', 'Wynn Reid', '5552345747', 'Male', 'Family history of stroke'),
+('P071', 'Xena Page', '5552345748', 'Female', 'Recent recovery from cold'),
+('P072', 'Yuri Bass', '5552345749', 'Male', 'Wears glasses'),
+('P073', 'Zara Holt', '5552345750', 'Female', 'Allergic to cats'),
+('P074', 'Amir Kent', '5552345751', 'Male', 'No health issues'),
+('P075', 'Bree Nash', '5552345752', 'Female', 'Mild joint pain'),
+('P076', 'Cian Todd', '5552345753', 'Male', 'History of bronchitis'),
+('P077', 'Dawn Vega', '5552345754', 'Female', 'No allergies, active'),
+('P078', 'Eli West', '5552345755', 'Male', 'On vitamin supplements'),
+('P079', 'Fiona Case', '5552345756', 'Female', 'Family history of asthma'),
+('P080', 'Gus Pike', '5552345757', 'Male', 'Allergic to mold'),
+('P081', 'Hazel Dunn', '5552345758', 'Female', 'Recent dental check-up'),
+('P082', 'Ian Good', '5552345759', 'Male', 'No medications'),
+('P083', 'Jill Hart', '5552345760', 'Female', 'Mild seasonal allergies'),
+('P084', 'Kane Wall', '5552345761', 'Male', 'History of fractures'),
+('P085', 'Lena Bray', '5552345762', 'Female', 'On thyroid medication'),
+('P086', 'Miles Long', '5552345763', 'Male', 'No chronic issues'),
+('P087', 'Nora Peck', '5552345764', 'Female', 'All ergic to penicillin'),
+('P088', 'Owen Rush', '5552345765', 'Male', 'Regular cyclist, healthy'),
+('P089', 'Pearl Shea', '5552345766', 'Female', 'History of sinus infections'),
+('P090', 'Rory Tate', '5552345767', 'Male', 'No health concerns'),
+('P091', 'Sage Wood', '5552345768', 'Female', 'Mild eczema'),
+('P092', 'Troy Vale', '5552345769', 'Male', 'Allergic to bees'),
+('P093', 'Vera Zorn', '5552345770', 'Female', 'Family history of hypertension'),
+('P094', 'Wade York', '5552345771', 'Male', 'Recent blood tests normal'),
+('P095', 'Xena Clay', '5552345772', 'Female', 'On allergy shots'),
+('P096', 'Yale Dunn', '5552345773', 'Male', 'No allergies, active'),
+('P097', 'Zoe Finn', '5552345774', 'Female', 'History of migraines'),
+('P098', 'Arlo Gage', '5552345775', 'Male', 'Wears contact lenses'),
+('P099', 'Bryn Holt', '5552345776', 'Female', 'Allergic to dogs'),
+('P100', 'Cleo Judd', '5552345777', 'Female', 'No chronic conditions');
+
+INSERT INTO Health_activist (Health_activist_ID, Name, Contact_no, User_ID) VALUES
+('HA001', 'John Smith', '5551234567', 'U001'),
+('HA002', 'Emma Johnson', '5551234568', 'U002'),
+('HA003', 'Michael Brown', '5551234569', 'U003'),
+('HA004', 'Sarah Davis', '5551234570', 'U004'),
+('HA005', 'David Wilson', '5551234571', 'U005'),
+('HA006', 'Laura Martinez', '5551234572', 'U006'),
+('HA007', 'James Taylor', '5551234573', 'U007'),
+('HA008', 'Emily Anderson', '5551234574', 'U008'),
+('HA009', 'Robert Thomas', '5551234575', 'U009'),
+('HA010', 'Lisa Jackson', '5551234576', 'U010'),
+('HA011', 'William White', '5551234577', 'U011'),
+('HA012', 'Jennifer Harris', '5551234578', 'U012'),
+('HA013', 'Charles Clark', '5551234579', 'U013'),
+('HA014', 'Amanda Lewis', '5551234580', 'U014'),
+('HA015', 'Thomas Walker', '5551234581', 'U015'),
+('HA016', 'Megan Hall', '5551234582', 'U016'),
+('HA017', 'Daniel Allen', '5551234583', 'U017'),
+('HA018', 'Sophia Young', '5551234584', 'U018'),
+('HA019', 'Matthew King', '5551234585', 'U019'),
+('HA020', 'Olivia Scott', '5551234586', 'U020'),
+('HA021', 'Andrew Green', '5551234587', 'U021'),
+('HA022', 'Chloe Adams', '5551234588', 'U022'),
+('HA023', 'Steven Baker', '5551234589', 'U023'),
+('HA024', 'Isabella Nelson', '5551234590', 'U024'),
+('HA025', 'Joseph Carter', '5551234591', 'U025'),
+('HA026', 'Mia Mitchell', '5551234592', 'U026'),
+('HA027', 'Ryan Perez', '5551234593', 'U027'),
+('HA028', 'Ava Roberts', '5551234594', 'U028'),
+('HA029', 'Mark Turner', '5551234595', 'U029'),
+('HA030', 'Lily Phillips', '5551234596', 'U030');
+
+INSERT INTO Medical_Staff (User_ID, Medical_Staff_ID, Medical_center_ID, role_id) VALUES
+('U031', 'MS001', 'MC001', 'R001'), -- Physician at City General
+('U032', 'MS002', 'MC001', 'R002'), -- Nurse at City General
+('U033', 'MS003', 'MC002', 'R002'), -- Nurse at Sunrise Clinic
+('U034', 'MS004', 'MC002', 'R003'), -- Surgeon at Sunrise Clinic
+('U035', 'MS005', 'MC003', 'R001'), -- Physician at Hope Regional
+('U036', 'MS006', 'MC003', 'R004'), -- Pharmacist at Hope Regional
+('U037', 'MS007', 'MC004', 'R002'), -- Nurse at Green Valley
+('U038', 'MS008', 'MC004', 'R005'), -- Lab Technician at Green Valley
+('U039', 'MS009', 'MC005', 'R001'), -- Physician at Riverfront
+('U040', 'MS010', 'MC005', 'R002'), -- Nurse at Riverfront
+('U041', 'MS011', 'MC006', 'R006'), -- Radiologist at Unity
+('U042', 'MS012', 'MC006', 'R002'), -- Nurse at Unity
+('U043', 'MS013', 'MC007', 'R003'), -- Surgeon at Starlight
+('U044', 'MS014', 'MC007', 'R007'), -- Anesthesiologist at Starlight
+('U045', 'MS015', 'MC008', 'R001'), -- Physician at Haven
+('U046', 'MS016', 'MC008', 'R002'), -- Nurse at Haven
+('U047', 'MS017', 'MC009', 'R002'), -- Nurse at Brighton
+('U048', 'MS018', 'MC009', 'R008'), -- Physical Therapist at Brighton
+('U049', 'MS019', 'MC010', 'R001'), -- Physician at Lakeside
+('U050', 'MS020', 'MC010', 'R009'), -- Medical Assistant at Lakeside
+('U051', 'MS021', 'MC011', 'R002'), -- Nurse at Evergreen
+('U052', 'MS022', 'MC011', 'R010'), -- Dietitian at Evergreen
+('U053', 'MS023', 'MC012', 'R001'), -- Physician at Harmony
+('U054', 'MS024', 'MC012', 'R002'), -- Nurse at Harmony
+('U055', 'MS025', 'MC013', 'R011'), -- Paramedic at Summit
+('U056', 'MS026', 'MC013', 'R002'), -- Nurse at Summit
+('U057', 'MS027', 'MC014', 'R001'), -- Physician at Crestview
+('U058', 'MS028', 'MC014', 'R012'), -- Respiratory Therapist at Crestview
+('U059', 'MS029', 'MC015', 'R002'), -- Nurse at Beacon
+('U060', 'MS030', 'MC015', 'R013'), -- Psychiatrist at Beacon
+('U061', 'MS031', 'MC016', 'R001'), -- Physician at Trinity
+('U062', 'MS032', 'MC016', 'R002'), -- Nurse at Trinity
+('U063', 'MS033', 'MC017', 'R014'), -- Cardiologist at Meadowview
+('U064', 'MS034', 'MC017', 'R002'), -- Nurse at Meadowview
+('U065', 'MS035', 'MC018', 'R001'), -- Physician at Northstar
+('U066', 'MS036', 'MC018', 'R009'), -- Medical Assistant at Northstar
+('U067', 'MS037', 'MC019', 'R002'), -- Nurse at Golden Gate
+('U068', 'MS038', 'MC019', 'R015'), -- Administrator at Golden Gate
+('U069', 'MS039', 'MC020', 'R001'), -- Physician at Prairie
+('U070', 'MS040', 'MC020', 'R002'), -- Nurse at Prairie
+('U071', 'MS041', 'MC021', 'R003'), -- Surgeon at Horizon
+('U072', 'MS042', 'MC021', 'R007'), -- Anesthesiologist at Horizon
+('U073', 'MS043', 'MC022', 'R002'), -- Nurse at Blue Ridge
+('U074', 'MS044', 'MC022', 'R004'), -- Pharmacist at Blue Ridge
+('U075', 'MS045', 'MC023', 'R001'), -- Physician at Cedar Grove
+('U076', 'MS046', 'MC023', 'R002'), -- Nurse at Cedar Grove
+('U077', 'MS047', 'MC024', 'R002'), -- Nurse at Metro
+('U078', 'MS048', 'MC024', 'R005'), -- Lab Technician at Metro
+('U079', 'MS049', 'MC025', 'R001'), -- Physician at Silver Lake
+('U080', 'MS050', 'MC025', 'R002'); -- Nurse at Silver Lake
+
+INSERT INTO Vaccine (Vaccine_ID, Name, Manufactured_by, Disease_ID) VALUES
+('V001', 'FluShield', 'M001', 'D001'), -- Influenza, BioSynth Pharma
+('V002', 'FluGuard', 'M002', 'D001'), -- Influenza, NovaMed
+('V003', 'CoronaSafe', 'M003', 'D002'), -- COVID-19, VitalCure
+('V004', 'CovaxPro', 'M004', 'D002'), -- COVID-19, HealthWave
+('V005', 'TuberCure', 'M005', 'D003'), -- Tuberculosis, PureLife
+('V006', 'HepaBloc', 'M006', 'D006'), -- Hepatitis B, MedCore
+('V007', 'HepaVax', 'M007', 'D006'), -- Hepatitis B, StarPharma
+('V008', 'DengueDefend', 'M008', 'D007'), -- Dengue Fever, GlobalHeal
+('V009', 'MeaslesGuard', 'M009', 'D009'), -- Measles, CureTrend
+('V010', 'MMR-Pro', 'M010', 'D009'), -- Measles, LifeSynth
+('V011', 'PolioSafe', 'M011', 'D010'), -- Polio, BioPeak
+('V012', 'PolioShield', 'M012', 'D010'), -- Polio, VitaNova
+('V013', 'MumpsVax', 'M013', 'D071'), -- Mumps, Healix
+('V014', 'RubellaBloc', 'M014', 'D072'), -- Rubella, PrimeCure
+('V015', 'VaricellaCure', 'M015', 'D073'), -- Chickenpox, MediSynth
+('V016', 'ShingleStop', 'M016', 'D074'), -- Shingles, BioForge
+('V017', 'FluVaxPlus', 'M017', 'D001'), -- Influenza, NovaCure
+('V018', 'CoronaBloc', 'M018', 'D002'), -- COVID-19, HealthCore
+('V019', 'TBCure', 'M019', 'D003'), -- Tuberculosis, PureSynth
+('V020', 'HepaSafe', 'M020', 'D006'), -- Hepatitis B, LifeWave
+('V021', 'DengueShield', 'M021', 'D007'), -- Dengue Fever, CurePeak
+('V022', 'MeaslesPro', 'M022', 'D009'), -- Measles, MediCore
+('V023', 'PolioCure', 'M023', 'D010'), -- Polio, BioTrend
+('V024', 'MMR-Shield', 'M024', 'D071'), -- Mumps, VitaCure
+('V025', 'RubellaSafe', 'M025', 'D072'), -- Rubella, StarCure
+('V026', 'ChickenpoxVax', 'M026', 'D073'), -- Chickenpox, GlobalSynth
+('V027', 'ShingleGuard', 'M027', 'D074'), -- Shingles, HealWave
+('V028', 'FluCure', 'M028', 'D001'), -- Influenza, LifeCore
+('V029', 'CovaxUltra', 'M029', 'D002'), -- COVID-19, BioNova
+('V030', 'TBVax', 'M030', 'D003'), -- Tuberculosis, PrimeSynth
+('V031', 'MalariaBloc', 'M031', 'D004'), -- Malaria, MediPeak
+('V032', 'YellowFeverVax', 'M032', 'D048'), -- Yellow Fever, VitaTrend
+('V033', 'HepaCure', 'M033', 'D076'), -- Hepatitis C, CureNova
+('V034', 'RabiesShield', 'M034', 'D044'), -- Rabies, HealthSynth
+('V035', 'TetanusPro', 'M035', 'D047'), -- Tetanus, BioCure
+('V036', 'FluUltra', 'M036', 'D001'), -- Influenza, StarWave
+('V037', 'CoronaPro', 'M037', 'D002'), -- COVID-19, PureCure
+('V038', 'MeaslesCure', 'M038', 'D009'), -- Measles, LifeTrend
+('V039', 'PolioBloc', 'M039', 'D010'), -- Polio, NovaPeak
+('V040', 'MumpsShield', 'M040', 'D071'), -- Mumps, GlobalCure
+('V041', 'RubellaPro', 'M041', 'D072'), -- Rubella, MediWave
+('V042', 'VaricellaBloc', 'M042', 'D073'), -- Chickenpox, VitaSynth
+('V043', 'ShingleCure', 'M043', 'D074'), -- Shingles, HealCore
+('V044', 'MalariaVax', 'M044', 'D004'), -- Malaria, BioStar
+('V045', 'YFeverSafe', 'M045', 'D048'), -- Yellow Fever, CureSynth
+('V046', 'HepaCBloc', 'M046', 'D076'), -- Hepatitis C, LifePeak
+('V047', 'RabiesVax', 'M047', 'D047'), -- Tetanus, StarCure
+('V048', 'TetanusBloc', 'M048', 'D047'), -- Tetanus, PureNova
+('V049', 'FluSafe', 'M049', 'D001'), -- Influenza, GlobalTrend
+('V050', 'CoronaShield', 'M050', 'D002'); -- COVID-19, VitaCore
+
+INSERT INTO Medical_resources (Medical_Resource_ID, Resource_type_ID, Medical_center_ID, Stock) VALUES
+('MR001', 'RT001', 'MC001', 500), -- Syringes at City General
+('MR002', 'RT003', 'MC001', 1000), -- Surgical Masks at City General
+('MR003', 'RT002', 'MC001', 5), -- Ventilators at City General
+('MR004', 'RT004', 'MC002', 800), -- Gloves at Sunrise Clinic
+('MR005', 'RT008', 'MC002', 20), -- Thermometers at Sunrise Clinic
+('MR006', 'RT001', 'MC003', 400), -- Syringes at Hope Regional
+('MR007', 'RT009', 'MC003', 15), -- Oxygen Tanks at Hope Regional
+('MR008', 'RT003', 'MC004', 600), -- Surgical Masks at Green Valley
+('MR009', 'RT005', 'MC004', 200), -- IV Catheters at Green Valley
+('MR010', 'RT002', 'MC005', 3), -- Ventilators at Riverfront
+('MR011', 'RT004', 'MC005', 700), -- Gloves at Riverfront
+('MR012', 'RT006', 'MC006', 2), -- Defibrillators at Unity
+('MR013', 'RT007', 'MC006', 300), -- Bandages at Unity
+('MR014', 'RT001', 'MC007', 450), -- Syringes at Starlight
+('MR015', 'RT011', 'MC007', 500), -- N95 Respirators at Starlight
+('MR016', 'RT003', 'MC008', 800), -- Surgical Masks at Haven
+('MR017', 'RT008', 'MC008', 25), -- Thermometers at Haven
+('MR018', 'RT004', 'MC009', 600), -- Gloves at Brighton
+('MR019', 'RT010', 'MC009', 1), -- Ultrasound Machine at Brighton
+('MR020', 'RT001', 'MC010', 400), -- Syringes at Lakeside
+('MR021', 'RT012', 'MC010', 50), -- Surgical Gowns at Lakeside
+('MR022', 'RT002', 'MC011', 4), -- Ventilators at Evergreen
+('MR023', 'RT007', 'MC011', 250), -- Bandages at Evergreen
+('MR024', 'RT003', 'MC012', 700), -- Surgical Masks at Harmony
+('MR025', 'RT013', 'MC012', 3), -- ECG Machines at Harmony
+('MR026', 'RT004', 'MC013', 900), -- Gloves at Summit
+('MR027', 'RT014', 'MC013', 300), -- Needles at Summit
+('MR028', 'RT001', 'MC014', 350), -- Syringes at Crestview
+('MR029', 'RT015', 'MC014', 10), -- Blood Pressure Monitors at Crestview
+('MR030', 'RT003', 'MC015', 600), -- Surgical Masks at Beacon
+('MR031', 'RT016', 'MC015', 400), -- Gauze at Beacon
+('MR032', 'RT002', 'MC016', 6), -- Ventilators at Trinity
+('MR033', 'RT004', 'MC016', 800), -- Gloves at Trinity
+('MR034', 'RT017', 'MC017', 15), -- Pulse Oximeters at Meadowview
+('MR035', 'RT001', 'MC017', 500), -- Syringes at Meadowview
+('MR036', 'RT003', 'MC018', 700), -- Surgical Masks at Northstar
+('MR037', 'RT018', 'MC018', 20), -- Stethoscopes at Northstar
+('MR038', 'RT004', 'MC019', 600), -- Gloves at Golden Gate
+('MR039', 'RT019', 'MC019', 5), -- Wheelchairs at Golden Gate
+('MR040', 'RT001', 'MC020', 450), -- Syringes at Prairie
+('MR041', 'RT020', 'MC020', 100), -- IV Fluid Bags at Prairie
+('MR042', 'RT002', 'MC021', 3), -- Ventilators at Horizon
+('MR043', 'RT003', 'MC021', 800), -- Surgical Masks at Horizon
+('MR044', 'RT004', 'MC022', 700), -- Gloves at Blue Ridge
+('MR045', 'RT021', 'MC022', 1), -- X-Ray Machine at Blue Ridge
+('MR046', 'RT001', 'MC023', 400), -- Syringes at Cedar Grove
+('MR047', 'RT022', 'MC023', 50), -- Face Shields at Cedar Grove
+('MR048', 'RT003', 'MC024', 600), -- Surgical Masks at Metro
+('MR049', 'RT023', 'MC024', 20), -- Suture Kits at Metro
+('MR050', 'RT004', 'MC025', 900), -- Gloves at Silver Lake
+('MR051', 'RT001', 'MC025', 500), -- Syringes at Silver Lake
+('MR052', 'RT002', 'MC026', 4), -- Ventilators at Pinecrest
+('MR053', 'RT003', 'MC026', 700), -- Surgical Masks at Pinecrest
+('MR054', 'RT004', 'MC027', 800), -- Gloves at Mountain View
+('MR055', 'RT024', 'MC027', 5), -- Infusion Pumps at Mountain View
+('MR056', 'RT001', 'MC028', 400), -- Syringes at Coastal Care
+('MR057', 'RT025', 'MC028', 200), -- Antiseptic Solution at Coastal Care
+('MR058', 'RT003', 'MC029', 600), -- Surgical Masks at Liberty
+('MR059', 'RT026', 'MC029', 10), -- Crutches at Liberty
+('MR060', 'RT004', 'MC030', 700), -- Gloves at Sunset
+('MR061', 'RT027', 'MC030', 300), -- Test Tubes at Sunset
+('MR062', 'RT001', 'MC031', 450), -- Syringes at Valley General
+('MR063', 'RT002', 'MC031', 5), -- Ventilators at Valley General
+('MR064', 'RT003', 'MC032', 800), -- Surgical Masks at Riverside
+('MR065', 'RT004', 'MC032', 600), -- Gloves at Riverside
+('MR066', 'RT028', 'MC033', 50), -- Pipettes at Aurora
+('MR067', 'RT001', 'MC033', 400), -- Syringes at Aurora
+('MR068', 'RT003', 'MC034', 700), -- Surgical Masks at Starview
+('MR069', 'RT029', 'MC034', 1), -- CT Scanner at Starview
+('MR070', 'RT004', 'MC035', 900), -- Gloves at Heritage
+('MR071', 'RT030', 'MC035', 200), -- Medical Tape at Heritage
+('MR072', 'RT001', 'MC036', 500), -- Syringes at Skyline
+('MR073', 'RT002', 'MC036', 3), -- Ventilators at Skyline
+('MR074', 'RT003', 'MC037', 600), -- Surgical Masks at Twilight
+('MR075', 'RT004', 'MC037', 800), -- Gloves at Twilight
+('MR076', 'RT005', 'MC038', 250), -- IV Catheters at Brightview
+('MR077', 'RT001', 'MC038', 400), -- Syringes at Brightview
+('MR078', 'RT003', 'MC039', 700), -- Surgical Masks at Summit
+('MR079', 'RT006', 'MC039', 2), -- Defibrillators at Summit
+('MR080', 'RT004', 'MC040', 600), -- Gloves at Clearwater
+('MR081', 'RT007', 'MC040', 300), -- Bandages at Clearwater
+('MR082', 'RT001', 'MC041', 450), -- Syringes at Highland
+('MR083', 'RT008', 'MC041', 20), -- Thermometers at Highland
+('MR084', 'RT003', 'MC042', 800), -- Surgical Masks at Westwood
+('MR085', 'RT009', 'MC042', 10), -- Oxygen Tanks at Westwood
+('MR086', 'RT004', 'MC043', 700), -- Gloves at Oakridge
+('MR087', 'RT010', 'MC043', 1), -- Ultrasound Machine at Oakridge
+('MR088', 'RT001', 'MC044', 400), -- Syringes at Sunridge
+('MR089', 'RT011', 'MC044', 500), -- N95 Respirators at Sunridge
+('MR090', 'RT003', 'MC045', 600), -- Surgical Masks at Canyon
+('MR091', 'RT012', 'MC045', 50), -- Surgical Gowns at Canyon
+('MR092', 'RT004', 'MC046', 800), -- Gloves at Lakeshore
+('MR093', 'RT013', 'MC046', 3), -- ECG Machines at Lakeshore
+('MR094', 'RT001', 'MC047', 500), -- Syringes at Greenwood
+('MR095', 'RT014', 'MC047', 300), -- Needles at Greenwood
+('MR096', 'RT003', 'MC048', 700), -- Surgical Masks at Vista
+('MR097', 'RT015', 'MC048', 15), -- Blood Pressure Monitors at Vista
+('MR098', 'RT004', 'MC049', 600), -- Gloves at Unity
+('MR099', 'RT016', 'MC049', 400), -- Gauze at Unity
+('MR100', 'RT001', 'MC050', 450); -- Syringes at Harborview
+
+INSERT INTO Admission (Admission_ID, Disease_ID, Admission_date, Patient_ID, Medical_center_ID) VALUES
+('A001', 'D001', '2024-01-15', 'P001', 'MC001'), -- Influenza, Alice Carter, City General
+('A002', 'D002', '2024-02-03', 'P002', 'MC002'), -- COVID-19, Brian Foster, Sunrise Clinic
+('A003', 'D015', '2024-03-10', 'P003', 'MC003'), -- Asthma, Clara Nguyen, Hope Regional
+('A004', 'D013', '2024-04-22', 'P004', 'MC004'), -- Hypertension, Derek Patel, Green Valley
+('A005', 'D012', '2024-05-17', 'P005', 'MC005'), -- Diabetes Type 2, Elise Wong, Riverfront
+('A006', 'D041', '2024-06-08', 'P006', 'MC006'), -- Pneumonia, Felix Ortiz, Unity
+('A007', 'D008', '2024-07-14', 'P007', 'MC007'), -- Cholera, Grace Kim, Starlight
+('A008', 'D014', '2024-08-29', 'P008', 'MC008'), -- Coronary Artery Disease, Henry Diaz, Haven
+('A009', 'D017', '2024-09-12', 'P009', 'MC009'), -- Arthritis, Isla Gupta, Brighton
+('A010', 'D019', '2024-10-05', 'P010', 'MC010'), -- Epilepsy, Jasper Reed, Lakeside
+('A011', 'D031', '2024-11-20', 'P011', 'MC011'), -- Depression, Kiera Brooks, Evergreen
+('A012', 'D036', '2024-12-01', 'P012', 'MC012'), -- Breast Cancer, Liam Hayes, Harmony
+('A013', 'D003', '2024-01-25', 'P013', 'MC013'), -- Tuberculosis, Maya Chen, Summit
+('A014', 'D007', '2024-02-14', 'P014', 'MC014'), -- Dengue Fever, Noah Silva, Crestview
+('A015', 'D026', '2024-03-30', 'P015', 'MC015'), -- Rheumatoid Arthritis, Olivia Ford, Beacon
+('A016', 'D055', '2024-04-10', 'P016', 'MC016'), -- Stroke, Parker Lane, Trinity
+('A017', 'D029', '2024-05-22', 'P017', 'MC017'), -- Crohn’s Disease, Quinn Meyer, Meadowview
+('A018', 'D042', '2024-06-15', 'P018', 'MC018'), -- Meningitis, Riley Vaughn, Northstar
+('A019', 'D006', '2024-07-08', 'P019', 'MC019'), -- Hepatitis B, Seth Kumar, Golden Gate
+('A020', 'D040', '2024-08-19', 'P020', 'MC020'), -- Leukemia, Tara Holt, Prairie
+('A021', 'D018', '2024-09-03', 'P021', 'MC021'), -- Chronic Kidney Disease, Victor Chang, Horizon
+('A022', 'D027', '2024-10-12', 'P022', 'MC022'), -- Multiple Sclerosis, Willow Park, Blue Ridge
+('A023', 'D009', '2024-11-15', 'P023', 'MC023'), -- Measles, Xander Ruiz, Cedar Grove
+('A024', 'D032', '2024-12-20', 'P024', 'MC024'), -- Anxiety Disorder, Yara Becker, Metro
+('A025', 'D054', '2025-01-05', 'P025', 'MC025'), -- Heart Failure, Zane Fisher, Silver Lake
+('A026', 'D004', '2024-01-30', 'P026', 'MC026'), -- Malaria, Amara Klein, Pinecrest
+('A027', 'D037', '2024-02-18', 'P027', 'MC027'), -- Lung Cancer, Bennett Cox, Mountain View
+('A028', 'D016', '2024-03-25', 'P028', 'MC028'), -- COPD, Cora Walsh, Coastal Care
+('A029', 'D020', '2024-04-15', 'P029', 'MC029'), -- Alzheimer’s, Declan Soto, Liberty
+('A030', 'D043', '2024-05-10', 'P030', 'MC030'), -- Typhoid Fever, Esme Grant, Sunset
+('A031', 'D011', '2024-06-22', 'P031', 'MC031'), -- Diabetes Type 1, Finn Doyle, Valley General
+('A032', 'D030', '2024-07-17', 'P032', 'MC032'), -- Psoriasis, Gemma Stone, Riverside
+('A033', 'D038', '2024-08-05', 'P033', 'MC033'), -- Prostate Cancer, Hugo Blair, Aurora
+('A034', 'D028', '2024-09-10', 'P034', 'MC034'), -- Lupus, Ivy Marsh, Starview
+('A035', 'D039', '2024-10-25', 'P035', 'MC035'), -- Colorectal Cancer, Jude Perry, Heritage
+('A036', 'D005', '2024-11-08', 'P036', 'MC036'), -- HIV/AIDS, Kyla Boone, Skyline
+('A037', 'D021', '2024-12-12', 'P037', 'MC037'), -- Cystic Fibrosis, Levi Dunn, Twilight
+('A038', 'D033', '2025-01-15', 'P038', 'MC038'), -- Schizophrenia, Mira Tate, Brightview
+('A039', 'D022', '2024-01-20', 'P039', 'MC039'), -- Sickle Cell Anemia, Nico Frost, Summit
+('A040', 'D034', '2024-02-28', 'P040', 'MC040'), -- Bipolar Disorder, Opal Wade, Clearwater
+('A041', 'D048', '2024-03-12', 'P041', 'MC041'), -- Yellow Fever, Reid Cohen, Highland
+('A042', 'D049', '2024-04-18', 'P042', 'MC042'), -- Lyme Disease, Siena Lowe, Westwood
+('A043', 'D050', '2024-05-30', 'P043', 'MC043'), -- West Nile Virus, Theo Mack, Oakridge
+('A044', 'D051', '2024-06-25', 'P044', 'MC044'), -- Chlamydia, Uma Neal, Sunridge
+('A045', 'D052', '2024-07-20', 'P045', 'MC045'), -- Gonorrhea, Vera Hunt, Canyon
+('A046', 'D053', '2024-08-15', 'P046', 'MC046'), -- Syphilis, Wes Pope, Lakeshore
+('A047', 'D056', '2024-09-22', 'P047', 'MC047'), -- Duchenne Muscular Dystrophy, Zoe Ball, Greenwood
+('A048', 'D059', '2024-10-30', 'P048', 'MC048'), -- Pancreatic Cancer, Axel Dean, Vista
+('A049', 'D064', '2024-11-25', 'P049', 'MC049'), -- Cirrhosis, Bryn Shaw, Unity
+('A050', 'D070', '2024-12-30', 'P050', 'MC050'); -- Melanoma, Cade York, Harborview
+
+INSERT INTO Treatment (Treatment_ID, Admission_ID, Medical_staff_ID, Treatment_start_date, Treatment_end_date, Description) VALUES
+('T001', 'A001', 'MS001', '2024-01-15', '2024-01-20', 'Administered antiviral medication and fluids for Influenza; monitored respiratory symptoms.'),
+('T002', 'A002', 'MS003', '2024-02-03', '2024-02-10', 'Provided oxygen therapy and remdesivir for COVID-19; patient stabilized.'),
+('T003', 'A003', 'MS005', '2024-03-10', '2024-03-15', 'Prescribed inhalers and corticosteroids for Asthma exacerbation.'),
+('T004', 'A004', 'MS007', '2024-04-22', '2024-04-29', 'Initiated antihypertensive medication for Hypertension; advised lifestyle changes.'),
+('T005', 'A005', 'MS009', '2024-05-17', '2024-06-07', 'Started metformin and insulin therapy for Diabetes Type 2; dietary counseling provided.'),
+('T006', 'A006', 'MS011', '2024-06-08', '2024-06-15', 'Administered antibiotics and IV fluids for Pneumonia; chest X-ray monitored.'),
+('T007', 'A007', 'MS013', '2024-07-14', '2024-07-21', 'Rehydration therapy and antibiotics for Cholera; patient recovered well.'),
+('T008', 'A008', 'MS015', '2024-08-29', '2024-09-12', 'Prescribed beta-blockers and scheduled angiogram for Coronary Artery Disease.'),
+('T009', 'A009', 'MS017', '2024-09-12', '2024-09-26', 'Initiated physical therapy and NSAIDs for Arthritis pain management.'),
+('T010', 'A010', 'MS019', '2024-10-05', '2024-10-12', 'Adjusted anticonvulsant dosage for Epilepsy; EEG conducted.'),
+('T011', 'A011', 'MS021', '2024-11-20', '2024-12-04', 'Started SSRIs and referred to counseling for Depression.'),
+('T012', 'A012', 'MS023', '2024-12-01', NULL, 'Began chemotherapy and radiation for Breast Cancer; ongoing monitoring.'),
+('T013', 'A013', 'MS025', '2024-01-25', '2024-03-07', 'Started anti-TB therapy for Tuberculosis; sputum tests scheduled.'),
+('T014', 'A014', 'MS027', '2024-02-14', '2024-02-21', 'Administered IV fluids and analgesics for Dengue Fever; platelet count monitored.'),
+('T015', 'A015', 'MS029', '2024-03-30', '2024-04-20', 'Prescribed DMARDs for Rheumatoid Arthritis; joint function assessed.'),
+('T016', 'A016', 'MS031', '2024-04-10', '2024-05-08', 'Initiated thrombolytic therapy and rehab for Stroke; physical therapy ongoing.'),
+('T017', 'A017', 'MS033', '2024-05-22', '2024-06-12', 'Started biologics for Crohn’s Disease; dietary plan implemented.'),
+('T018', 'A018', 'MS035', '2024-06-15', '2024-06-22', 'Administered antibiotics for Meningitis; lumbar puncture performed.'),
+('T019', 'A019', 'MS037', '2024-07-08', '2024-08-05', 'Started antiviral therapy for Hepatitis B; liver function monitored.'),
+('T020', 'A020', 'MS039', '2024-08-19', NULL, 'Began chemotherapy for Leukemia; bone marrow tests ongoing.'),
+('T021', 'A021', 'MS041', '2024-09-03', '2024-10-15', 'Initiated dialysis for Chronic Kidney Disease; kidney function assessed.'),
+('T022', 'A022', 'MS043', '2024-10-12', NULL, 'Started immunomodulators for Multiple Sclerosis; MRI scheduled.'),
+('T023', 'A023', 'MS045', '2024-11-15', '2024-11-22', 'Administered MMR vaccine post-recovery for Measles; isolation maintained.'),
+('T024', 'A024', 'MS047', '2024-12-20', '2025-01-10', 'Prescribed anxiolytics and CBT for Anxiety Disorder.'),
+('T025', 'A025', 'MS049', '2025-01-05', NULL, 'Initiated diuretics and ACE inhibitors for Heart Failure; cardiac rehab started.'),
+('T026', 'A026', 'MS002', '2024-01-30', '2024-02-06', 'Administered antimalarials for Malaria; fever subsided.'),
+('T027', 'A027', 'MS004', '2024-02-18', NULL, 'Started chemotherapy and radiation for Lung Cancer; ongoing treatment.'),
+('T028', 'A028', 'MS006', '2024-03-25', '2024-04-15', 'Prescribed bronchodilators and oxygen for COPD exacerbation.'),
+('T029', 'A029', 'MS008', '2024-04-15', NULL, 'Initiated donepezil for Alzheimer’s Disease; cognitive therapy ongoing.'),
+('T030', 'A030', 'MS010', '2024-05-10', '2024-05-17', 'Administered antibiotics for Typhoid Fever; hydration maintained.'),
+('T031', 'A031', 'MS012', '2024-06-22', '2024-07-13', 'Started insulin therapy for Diabetes Type 1; glucose levels stabilized.'),
+('T032', 'A032', 'MS014', '2024-07-17', '2024-08-07', 'Prescribed topical corticosteroids for Psoriasis; skin cleared.'),
+('T033', 'A033', 'MS016', '2024-08-05', NULL, 'Began hormone therapy for Prostate Cancer; PSA levels monitored.'),
+('T034', 'A034', 'MS018', '2024-09-10', '2024-10-01', 'Started immunosuppressive therapy for Lupus; symptoms managed.'),
+('T035', 'A035', 'MS020', '2024-10-25', NULL, 'Initiated chemotherapy for Colorectal Cancer; surgical consult planned.'),
+('T036', 'A036', 'MS022', '2024-11-08', NULL, 'Started antiretroviral therapy for HIV/AIDS; viral load monitored.'),
+('T037', 'A037', 'MS024', '2024-12-12', NULL, 'Provided respiratory support for Cystic Fibrosis; antibiotics administered.'),
+('T038', 'A038', 'MS026', '2025-01-15', NULL, 'Prescribed antipsychotics for Schizophrenia; therapy sessions started.'),
+('T039', 'A039', 'MS028', '2024-01-20', '2024-02-10', 'Initiated blood transfusions for Sickle Cell Anemia; pain managed.'),
+('T040', 'A040', 'MS030', '2024-02-28', '2024-03-20', 'Started mood stabilizers for Bipolar Disorder; patient stabilized.'),
+('T041', 'A041', 'MS032', '2024-03-12', '2024-03-19', 'Administered yellow fever vaccine post-exposure; supportive care provided.'),
+('T042', 'A042', 'MS034', '2024-04-18', '2024-05-02', 'Prescribed doxycycline for Lyme Disease; rash resolved.'),
+('T043', 'A043', 'MS036', '2024-05-30', '2024-06-06', 'Supportive care for West Nile Virus; neurological symptoms monitored.'),
+('T044', 'A044', 'MS038', '2024-06-25', '2024-07-02', 'Administered antibiotics for Chlamydia; follow-up tests clear.'),
+('T045', 'A045', 'MS040', '2024-07-20', '2024-07-27', 'Prescribed antibiotics for Gonorrhea; infection cleared.'),
+('T046', 'A046', 'MS042', '2024-08-15', '2024-08-29', 'Administered penicillin for Syphilis; serology tests planned.'),
+('T047', 'A047', 'MS044', '2024-09-22', NULL, 'Initiated physical therapy for Duchenne Muscular Dystrophy; mobility supported.'),
+('T048', 'A048', 'MS046', '2024-10-30', NULL, 'Started chemotherapy for Pancreatic Cancer; palliative care consulted.'),
+('T049', 'A049', 'MS048', '2024-11-25', NULL, 'Initiated diuretics for Cirrhosis; liver transplant evaluation ongoing.'),
+('T050', 'A050', 'MS050', '2024-12-30', NULL, 'Began immunotherapy for Melanoma; lesion monitoring ongoing.');
+
+
+INSERT INTO Awareness_campaign (Campaign_ID, Health_ID, Name, Description, Target_audience, Start_date, End_date) VALUES
+('C001', 'HA001', 'Flu Free Winter', 'Promotes flu vaccinations and hygiene practices to reduce influenza spread.', 'General public, especially elderly', '2024-10-01', '2024-12-31'),
+('C002', 'HA002', 'COVID-19 Safe Communities', 'Educates on booster shots and masking to prevent COVID-19 outbreaks.', 'High-risk groups, urban residents', '2024-11-15', '2025-03-15'),
+('C003', 'HA003', 'TB Awareness Drive', 'Raises awareness about tuberculosis symptoms and free testing options.', 'Low-income communities', '2024-03-01', '2024-06-30'),
+('C004', 'HA004', 'Malaria No More', 'Distributes mosquito nets and educates on malaria prevention.', 'Rural areas, families', '2024-06-15', '2024-09-15'),
+('C005', 'HA005', 'HIV Testing Week', 'Encourages HIV screenings and reduces stigma through education.', 'Young adults, ages 18-35', '2024-12-01', '2024-12-07'),
+('C006', 'HA006', 'Hepatitis B Shield', 'Promotes Hep B vaccinations and liver health screenings.', 'Healthcare workers, immigrants', '2024-07-01', '2024-10-31'),
+('C007', 'HA007', 'Dengue Defense Campaign', 'Teaches mosquito bite prevention and early dengue symptom recognition.', 'Tropical region residents', '2024-08-01', '2024-11-30'),
+('C008', 'HA008', 'Measles Vaccination Push', 'Advocates for MMR vaccine uptake to prevent measles outbreaks.', 'Parents of young children', '2024-09-15', '2024-12-15'),
+('C009', 'HA009', 'Diabetes Care Month', 'Educates on Type 2 diabetes management and healthy lifestyles.', 'Adults over 40', '2024-11-01', '2024-11-30'),
+('C010', 'HA010', 'Know Your BP', 'Offers free blood pressure checks to detect hypertension early.', 'General public, ages 30+', '2024-05-01', '2024-07-31'),
+('C011', 'HA011', 'Heart Health Matters', 'Promotes exercise and diet to reduce coronary artery disease risk.', 'Middle-aged adults', '2024-02-01', '2024-04-30'),
+('C012', 'HA012', 'Breathe Easy', 'Raises asthma awareness and teaches inhaler use.', 'Schoolchildren, parents', '2024-04-15', '2024-06-15'),
+('C013', 'HA013', 'Lung Wellness Drive', 'Educates on COPD risks and smoking cessation programs.', 'Smokers, ages 50+', '2024-10-15', '2025-01-15'),
+('C014', 'HA014', 'Joint Health Journey', 'Provides arthritis management tips and exercise workshops.', 'Seniors, ages 60+', '2024-09-01', '2024-12-01'),
+('C015', 'HA015', 'Kidney Care Campaign', 'Promotes kidney health screenings for chronic kidney disease.', 'High-risk groups, diabetics', '2024-03-15', '2024-06-15'),
+('C016', 'HA016', 'Seizure Safety', 'Teaches epilepsy first aid and medication adherence.', 'Caregivers, schools', '2024-11-15', '2025-02-15'),
+('C017', 'HA017', 'Mind Matters', 'Reduces stigma around depression through community talks.', 'Teenagers, young adults', '2024-10-01', '2024-12-31'),
+('C018', 'HA018', 'Breast Cancer Awareness', 'Encourages mammograms and early detection for breast cancer.', 'Women over 40', '2024-10-01', '2024-10-31'),
+('C019', 'HA019', 'Lung Cancer Alert', 'Promotes smoking cessation and lung cancer screenings.', 'Smokers, industrial workers', '2024-11-01', '2024-12-31'),
+('C020', 'HA020', 'Prostate Health Month', 'Educates men on prostate cancer risks and PSA tests.', 'Men over 50', '2024-09-01', '2024-09-30'),
+('C021', 'HA021', 'Colon Cancer Screening', 'Advocates for colonoscopies to detect colorectal cancer early.', 'Adults over 45', '2024-03-01', '2024-05-31'),
+('C022', 'HA022', 'Leukemia Awareness', 'Raises funds and awareness for leukemia research and support.', 'General public, families', '2024-09-15', '2024-10-15'),
+('C023', 'HA023', 'Pneumonia Prevention', 'Promotes pneumonia vaccines for vulnerable groups.', 'Elderly, immunocompromised', '2024-11-01', '2025-01-31'),
+('C024', 'HA024', 'Meningitis Matters', 'Educates on meningitis symptoms and vaccination.', 'College students, parents', '2024-08-15', '2024-11-15'),
+('C025', 'HA025', 'Stroke Smart', 'Teaches stroke warning signs and prevention strategies.', 'Adults over 50', '2024-05-01', '2024-07-31'),
+('C026', 'HA026', 'Sickle Cell Support', 'Provides resources for sickle cell anemia patients and families.', 'African ancestry communities', '2024-09-01', '2024-12-01'),
+('C027', 'HA027', 'Lupus Awareness', 'Educates on lupus symptoms and support networks.', 'Women, ages 20-40', '2024-05-15', '2024-08-15'),
+('C028', 'HA028', 'Mental Health Month', 'Promotes anxiety disorder coping strategies and therapy.', 'General public, youth', '2024-10-01', '2024-10-31'),
+('C029', 'HA029', 'Rabies Prevention', 'Raises awareness about rabies risks and pet vaccinations.', 'Pet owners, rural areas', '2024-09-28', '2024-10-28'),
+('C030', 'HA030', 'Melanoma Watch', 'Teaches skin cancer prevention and self-check techniques.', 'Outdoor workers, youth', '2024-06-01', '2024-08-31');
+
+ 
+INSERT INTO Researcher (User_ID, Researcher_ID, Research_center_ID) VALUES
+('U051', 'R001', 'RC001'), ('U052', 'R002', 'RC002'), ('U053', 'R003', 'RC003'), ('U054', 'R004', 'RC004'),
+('U055', 'R005', 'RC005'), ('U056', 'R006', 'RC006'), ('U057', 'R007', 'RC007'), ('U058', 'R008', 'RC008'),
+('U059', 'R009', 'RC009'), ('U060', 'R010', 'RC010'), ('U061', 'R011', 'RC011'), ('U062', 'R012', 'RC012'),
+('U063', 'R013', 'RC013'), ('U064', 'R014', 'RC014'), ('U065', 'R015', 'RC015'), ('U066', 'R016', 'RC016'),
+('U067', 'R017', 'RC017'), ('U068', 'R018', 'RC018'), ('U069', 'R019', 'RC019'), ('U070', 'R020', 'RC020'),
+('U071', 'R021', 'RC021'), ('U072', 'R022', 'RC022'), ('U073', 'R023', 'RC023'), ('U074', 'R024', 'RC024'),
+('U075', 'R025', 'RC025'), ('U076', 'R026', 'RC026'), ('U077', 'R027', 'RC027'), ('U078', 'R028', 'RC028'),
+('U079', 'R029', 'RC029'), ('U080', 'R030', 'RC030'), ('U081', 'R031', 'RC031'), ('U082', 'R032', 'RC032'),
+('U083', 'R033', 'RC033'), ('U084', 'R034', 'RC034'), ('U085', 'R035', 'RC035'), ('U086', 'R036', 'RC036'),
+('U087', 'R037', 'RC037'), ('U088', 'R038', 'RC038'), ('U089', 'R039', 'RC039'), ('U090', 'R040', 'RC040'),
+('U091', 'R041', 'RC041'), ('U092', 'R042', 'RC042'), ('U093', 'R043', 'RC043'), ('U094', 'R044', 'RC044'),
+('U095', 'R045', 'RC045'), ('U096', 'R046', 'RC046'), ('U097', 'R047', 'RC047'), ('U098', 'R048', 'RC048'),
+('U099', 'R049', 'RC049'), ('U100', 'R050', 'RC050');
+
+INSERT INTO Research_Data (Data_ID, Description, Research_date, Researcher_ID, Disease_ID) VALUES
+('RD001', 'Clinical trial for novel influenza vaccine efficacy.', '2024-01-10', 'R001', 'D001'),
+('RD002', 'Genomic study of SARS-CoV-2 variants in urban populations.', '2024-02-15', 'R002', 'D002'),
+('RD003', 'Epidemiological analysis of TB resurgence in low-income areas.', '2024-03-20', 'R003', 'D003'),
+('RD004', 'Development of new antimalarial drug combinations.', '2024-04-05', 'R004', 'D004'),
+('RD005', 'Long-term outcomes of ART in HIV-positive patients.', '2024-05-12', 'R005', 'D005'),
+('RD006', 'Hepatitis B vaccine response in immunocompromised groups.', '2024-06-18', 'R006', 'D006'),
+('RD007', 'Dengue virus serotype prevalence study in tropical regions.', '2024-07-22', 'R007', 'D007'),
+('RD008', 'Cholera outbreak modeling for water sanitation improvements.', '2024-08-10', 'R008', 'D008'),
+('RD009', 'MMR vaccine hesitancy and measles outbreak correlation.', '2024-09-15', 'R009', 'D009'),
+('RD010', 'Polio eradication strategies in endemic regions.', '2024-10-01', 'R010', 'D010'),
+('RD011', 'Gene therapy trials for Type 1 diabetes management.', '2024-11-05', 'R011', 'D011'),
+('RD012', 'Lifestyle intervention impacts on Type 2 diabetes progression.', '2024-12-12', 'R012', 'D012'),
+('RD013', 'Hypertension genetic risk factors in diverse populations.', '2025-01-08', 'R013', 'D013'),
+('RD014', 'Coronary artery disease biomarkers in early detection.', '2024-02-20', 'R014', 'D014'),
+('RD015', 'Asthma triggers and environmental pollutant correlations.', '2024-03-25', 'R015', 'D015'),
+('RD016', 'COPD progression in former smokers: longitudinal study.', '2024-04-30', 'R016', 'D016'),
+('RD017', 'Arthritis pain management with non-opioid alternatives.', '2024-05-15', 'R017', 'D017'),
+('RD018', 'Chronic kidney disease dialysis optimization techniques.', '2024-06-20', 'R018', 'D018'),
+('RD019', 'Epilepsy seizure prediction using wearable devices.', '2024-07-25', 'R019', 'D019'),
+('RD020', 'Alzheimer’s disease early diagnostic protein markers.', '2024-08-30', 'R020', 'D020'),
+('RD021', 'Cystic fibrosis gene editing therapy feasibility study.', '2024-09-10', 'R021', 'D021'),
+('RD022', 'Sickle cell anemia pain crisis prevention trials.', '2024-10-15', 'R022', 'D022'),
+('RD023', 'Huntington’s disease genetic mutation progression study.', '2024-11-20', 'R023', 'D023'),
+('RD024', 'Down syndrome cognitive therapy outcomes analysis.', '2024-12-25', 'R024', 'D024'),
+('RD025', 'Hemophilia factor replacement therapy advancements.', '2025-01-10', 'R025', 'D025'),
+('RD026', 'Rheumatoid arthritis biologics efficacy comparison.', '2024-01-15', 'R026', 'D026'),
+('RD027', 'Multiple sclerosis immunotherapy long-term effects.', '2024-02-28', 'R027', 'D027'),
+('RD028', 'Lupus flare triggers and immune response study.', '2024-03-10', 'R028', 'D028'),
+('RD029', 'Crohn’s disease microbiome influence research.', '2024-04-20', 'R029', 'D029'),
+('RD030', 'Psoriasis topical treatment innovations trial.', '2024-05-25', 'R030', 'D030'),
+('RD031', 'Depression neural pathway mapping via fMRI.', '2024-06-30', 'R031', 'D031'),
+('RD032', 'Anxiety disorder CBT versus pharmacological outcomes.', '2024-07-10', 'R032', 'D032'),
+('RD033', 'Schizophrenia genetic predisposition cohort study.', '2024-08-15', 'R033', 'D033'),
+('RD034', 'Bipolar disorder mood stabilizer efficacy analysis.', '2024-09-20', 'R034', 'D034'),
+('RD035', 'PTSD trauma-focused therapy effectiveness study.', '2024-10-25', 'R035', 'D035'),
+('RD036', 'Breast cancer immunotherapy response rates.', '2024-11-30', 'R036', 'D036'),
+('RD037', 'Lung cancer targeted therapy resistance mechanisms.', '2024-12-05', 'R037', 'D037'),
+('RD038', 'Prostate cancer early detection biomarker validation.', '2025-01-15', 'R038', 'D038'),
+('RD039', 'Colorectal cancer screening uptake interventions.', '2024-01-20', 'R039', 'D039'),
+('RD040', 'Leukemia stem cell therapy clinical trial.', '2024-02-25', 'R040', 'D040'),
+('RD041', 'Pneumonia antibiotic resistance patterns study.', '2024-03-30', 'R041', 'D041'),
+('RD042', 'Meningitis vaccine development for bacterial strains.', '2024-04-10', 'R042', 'D042'),
+('RD043', 'Typhoid fever sanitation impact assessment.', '2024-05-15', 'R043', 'D043'),
+('RD044', 'Rabies post-exposure prophylaxis optimization.', '2024-06-20', 'R044', 'D044'),
+('RD045', 'Ebola antiviral drug efficacy in animal models.', '2024-07-25', 'R045', 'D045'),
+('RD046', 'Zika virus congenital impact longitudinal study.', '2024-08-30', 'R046', 'D046'),
+('RD047', 'Tetanus vaccine booster schedule efficacy.', '2024-09-10', 'R047', 'D047'),
+('RD048', 'Yellow fever vaccine distribution logistics study.', '2024-10-15', 'R048', 'D048'),
+('RD049', 'Lyme disease diagnostic accuracy improvements.', '2024-11-20', 'R049', 'D049'),
+('RD050', 'West Nile virus neurological outcome predictors.', '2024-12-25', 'R050', 'D050');
+
+
+INSERT INTO Research_data_disease (Data_disease_ID, Data_ID, Disease_ID) VALUES
+('RDD001', 'RD001', 'D001'), -- Influenza vaccine trial -> Influenza
+('RDD002', 'RD002', 'D002'), -- SARS-CoV-2 variants study -> COVID-19
+('RDD003', 'RD003', 'D003'), -- TB resurgence analysis -> Tuberculosis
+('RDD004', 'RD004', 'D004'), -- Antimalarial drug study -> Malaria
+('RDD005', 'RD005', 'D005'), -- HIV ART outcomes -> HIV/AIDS
+('RDD006', 'RD006', 'D006'), -- Hepatitis B vaccine response -> Hepatitis B
+('RDD007', 'RD007', 'D007'), -- Dengue serotype prevalence -> Dengue Fever
+('RDD008', 'RD008', 'D008'), -- Cholera outbreak modeling -> Cholera
+('RDD009', 'RD009', 'D009'), -- Measles vaccine hesitancy -> Measles
+('RDD010', 'RD010', 'D010'), -- Polio eradication strategies -> Polio
+('RDD011', 'RD011', 'D011'), -- Type 1 diabetes gene therapy -> Diabetes Type 1
+('RDD012', 'RD012', 'D012'), -- Type 2 diabetes lifestyle intervention -> Diabetes Type 2
+('RDD013', 'RD013', 'D013'), -- Hypertension genetic risk factors -> Hypertension
+('RDD014', 'RD014', 'D014'), -- Coronary artery disease biomarkers -> Coronary Artery Disease
+('RDD015', 'RD015', 'D015'), -- Asthma environmental triggers -> Asthma
+('RDD016', 'RD016', 'D016'), -- COPD progression study -> COPD
+('RDD017', 'RD017', 'D017'), -- Arthritis pain management -> Arthritis
+('RDD018', 'RD018', 'D018'), -- Chronic kidney disease dialysis -> Chronic Kidney Disease
+('RDD019', 'RD019', 'D019'), -- Epilepsy seizure prediction -> Epilepsy
+('RDD020', 'RD020', 'D020'), -- Alzheimer’s diagnostic markers -> Alzheimer’s Disease
+('RDD021', 'RD021', 'D021'), -- Cystic fibrosis gene editing -> Cystic Fibrosis
+('RDD022', 'RD022', 'D022'), -- Sickle cell pain prevention -> Sickle Cell Anemia
+('RDD023', 'RD023', 'D023'), -- Huntington’s mutation progression -> Huntington’s Disease
+('RDD024', 'RD024', 'D024'), -- Down syndrome cognitive therapy -> Down Syndrome
+('RDD025', 'RD025', 'D025'), -- Hemophilia factor therapy -> Hemophilia
+('RDD026', 'RD026', 'D026'), -- Rheumatoid arthritis biologics -> Rheumatoid Arthritis
+('RDD027', 'RD027', 'D027'), -- Multiple sclerosis immunotherapy -> Multiple Sclerosis
+('RDD028', 'RD028', 'D028'), -- Lupus flare triggers -> Lupus
+('RDD029', 'RD029', 'D029'), -- Crohn’s disease microbiome -> Crohn’s Disease
+('RDD030', 'RD030', 'D030'), -- Psoriasis topical treatment -> Psoriasis
+('RDD031', 'RD031', 'D031'), -- Depression neural mapping -> Depression
+('RDD032', 'RD032', 'D032'), -- Anxiety disorder CBT outcomes -> Anxiety Disorder
+('RDD033', 'RD033', 'D033'), -- Schizophrenia genetic study -> Schizophrenia
+('RDD034', 'RD034', 'D034'), -- Bipolar disorder stabilizers -> Bipolar Disorder
+('RDD035', 'RD035', 'D035'), -- PTSD therapy effectiveness -> PTSD
+('RDD036', 'RD036', 'D036'), -- Breast cancer immunotherapy -> Breast Cancer
+('RDD037', 'RD037', 'D037'), -- Lung cancer therapy resistance -> Lung Cancer
+('RDD038', 'RD038', 'D038'), -- Prostate cancer biomarkers -> Prostate Cancer
+('RDD039', 'RD039', 'D039'), -- Colorectal cancer screening -> Colorectal Cancer
+('RDD040', 'RD040', 'D040'), -- Leukemia stem cell therapy -> Leukemia
+('RDD041', 'RD041', 'D041'), -- Pneumonia antibiotic resistance -> Pneumonia
+('RDD042', 'RD042', 'D042'), -- Meningitis vaccine development -> Meningitis
+('RDD043', 'RD043', 'D043'), -- Typhoid fever sanitation impact -> Typhoid Fever
+('RDD044', 'RD044', 'D044'), -- Rabies prophylaxis optimization -> Rabies
+('RDD045', 'RD045', 'D045'), -- Ebola antiviral efficacy -> Ebola
+('RDD046', 'RD046', 'D046'), -- Zika congenital impact -> Zika Virus
+('RDD047', 'RD047', 'D047'), -- Tetanus vaccine boosters -> Tetanus
+('RDD048', 'RD048', 'D048'), -- Yellow fever vaccine logistics -> Yellow Fever
+('RDD049', 'RD049', 'D049'), -- Lyme disease diagnostics -> Lyme Disease
+('RDD050', 'RD050', 'D050'); -- West Nile neurological predictors -> West Nile Virus
+
+INSERT INTO Campaign_disease (Campaign_disease_ID, Campaign_ID, Disease_ID) VALUES
+('CD001', 'C001', 'D001'), -- Flu Free Winter -> Influenza
+('CD002', 'C002', 'D002'), -- COVID-19 Safe Communities -> COVID-19
+('CD003', 'C003', 'D003'), -- TB Awareness Drive -> Tuberculosis
+('CD004', 'C004', 'D004'), -- Malaria No More -> Malaria
+('CD005', 'C005', 'D005'), -- HIV Testing Week -> HIV/AIDS
+('CD006', 'C006', 'D006'), -- Hepatitis B Shield -> Hepatitis B
+('CD007', 'C007', 'D007'), -- Dengue Defense Campaign -> Dengue Fever
+('CD008', 'C008', 'D009'), -- Measles Vaccination Push -> Measles
+('CD009', 'C009', 'D012'), -- Diabetes Care Month -> Diabetes Type 2
+('CD010', 'C010', 'D013'), -- Know Your BP -> Hypertension
+('CD011', 'C011', 'D014'), -- Heart Health Matters -> Coronary Artery Disease
+('CD012', 'C012', 'D015'), -- Breathe Easy -> Asthma
+('CD013', 'C013', 'D016'), -- Lung Wellness Drive -> COPD
+('CD014', 'C014', 'D017'), -- Joint Health Journey -> Arthritis
+('CD015', 'C015', 'D018'), -- Kidney Care Campaign -> Chronic Kidney Disease
+('CD016', 'C016', 'D019'), -- Seizure Safety -> Epilepsy
+('CD017', 'C017', 'D031'), -- Mind Matters -> Depression
+('CD018', 'C018', 'D036'), -- Breast Cancer Awareness -> Breast Cancer
+('CD019', 'C019', 'D037'), -- Lung Cancer Alert -> Lung Cancer
+('CD020', 'C020', 'D038'), -- Prostate Health Month -> Prostate Cancer
+('CD021', 'C021', 'D039'), -- Colon Cancer Screening -> Colorectal Cancer
+('CD022', 'C022', 'D040'), -- Leukemia Awareness -> Leukemia
+('CD023', 'C023', 'D041'), -- Pneumonia Prevention -> Pneumonia
+('CD024', 'C024', 'D042'), -- Meningitis Matters -> Meningitis
+('CD025', 'C025', 'D055'), -- Stroke Smart -> Stroke
+('CD026', 'C026', 'D022'), -- Sickle Cell Support -> Sickle Cell Anemia
+('CD027', 'C027', 'D028'), -- Lupus Awareness -> Lupus
+('CD028', 'C028', 'D032'), -- Mental Health Month -> Anxiety Disorder
+('CD029', 'C029', 'D044'), -- Rabies Prevention -> Rabies
+('CD030', 'C030', 'D070'); -- Melanoma Watch -> Melanoma
