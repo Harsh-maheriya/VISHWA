@@ -1,0 +1,305 @@
+SELECT 
+    mc.Medical_center_name,
+    d.Disease_Name,
+    COUNT(a.Admission_ID) AS Admission_Count
+FROM 
+    Admission a
+    JOIN Medical_Center mc ON a.Medical_center_ID = mc.Medical_center_ID
+    JOIN Disease d ON a.Disease_ID = d.Disease_ID
+WHERE 
+    d.Disease_ID IN ('D001', 'D002') -- Influenza, COVID-19
+GROUP BY 
+    mc.Medical_center_name,
+    d.Disease_Name
+ORDER BY 
+    Admission_Count DESC;
+
+
+SELECT 
+    sr.role_name,
+    COUNT(t.Treatment_ID) AS Ongoing_Treatments
+FROM 
+    Treatment t
+    JOIN Medical_Staff ms ON t.Medical_staff_ID = ms.Medical_Staff_ID
+    JOIN Staff_role sr ON ms.role_id = sr.role_id
+WHERE 
+    t.Treatment_end_date IS NULL
+GROUP BY 
+    sr.role_name
+ORDER BY 
+    Ongoing_Treatments DESC;
+
+
+SELECT 
+    mc.Medical_center_name,
+    mrt.Resource_type_name,
+    mr.Quantity
+FROM 
+    Medical_resources mr
+    JOIN Medical_Center mc ON mr.Medical_center_ID = mc.Medical_center_ID
+    JOIN Medical_resource_type mrt ON mr.Resource_type_ID = mrt.Resource_type_ID
+WHERE 
+    mrt.Resource_type_ID IN ('RT001', 'RT002') -- Syringes, Ventilators
+ORDER BY 
+    mc.Medical_center_name,
+    mrt.Resource_type_name;
+
+SELECT 
+    ac.Name AS Campaign_Name,
+    ac.Description,
+    d.Disease_Name,
+    ac.Start_date,
+    ac.End_date
+FROM 
+    Awareness_campaign ac
+    JOIN Campaign_disease cd ON ac.Campaign_ID = cd.Campaign_ID
+    JOIN Disease d ON cd.Disease_ID = d.Disease_ID
+WHERE 
+    d.Disease_ID IN ('D001', 'D002', 'D003', 'D004', 'D007', 'D008', 'D009', 'D044') -- Infectious diseases
+ORDER BY 
+    ac.Start_date DESC;
+
+SELECT 
+    d.Disease_Name,
+    COUNT(rd.Data_ID) AS Research_Studies
+FROM 
+    Research_Data rd
+    JOIN Disease d ON rd.Disease_ID = d.Disease_ID
+GROUP BY 
+    d.Disease_Name
+HAVING 
+    COUNT(rd.Data_ID) > 0
+ORDER BY 
+    Research_Studies DESC
+LIMIT 10;
+
+SELECT 
+    d.Disease_Name,
+    AVG(DATEDIFF(t.Treatment_end_date, t.Treatment_start_date)) AS Avg_Treatment_Days
+FROM 
+    Treatment t
+    JOIN Admission a ON t.Admission_ID = a.Admission_ID
+    JOIN Disease d ON a.Disease_ID = d.Disease_ID
+WHERE 
+    t.Treatment_end_date IS NOT NULL
+GROUP BY 
+    d.Disease_Name
+HAVING 
+    COUNT(t.Treatment_ID) >= 1
+ORDER BY 
+    Avg_Treatment_Days DESC;
+
+
+SELECT 
+    m.Name AS Manufacturer_Name,
+    v.Name AS Vaccine_Name,
+    d.Disease_Name
+FROM 
+    Vaccine v
+    JOIN Manufacturer m ON v.Manufactured_by = m.Manufacturer_ID
+    JOIN Disease d ON v.Disease_ID = d.Disease_ID
+ORDER BY 
+    m.Name,
+    d.Disease_Name;
+
+
+SELECT 
+    ha.Name AS Activist_Name,
+    COUNT(ac.Campaign_ID) AS Campaign_Count
+FROM 
+    Health_activist ha
+    JOIN Awareness_campaign ac ON ha.Health_activist_ID = ac.Health_ID
+GROUP BY 
+    ha.Name
+HAVING 
+    COUNT(ac.Campaign_ID) > 0
+ORDER BY 
+    Campaign_Count DESC;
+
+SELECT 
+    mc.Medical_center_name,
+    sr.role_name,
+    COUNT(ms.Medical_Staff_ID) AS Staff_Count
+FROM 
+    Medical_Staff ms
+    JOIN Medical_Center mc ON ms.Medical_center_ID = mc.Medical_center_ID
+    JOIN Staff_role sr ON ms.role_id = sr.role_id
+GROUP BY 
+    mc.Medical_center_name,
+    sr.role_name
+ORDER BY 
+    mc.Medical_center_name,
+    Staff_Count DESC;
+
+
+SELECT 
+    rc.Name AS Research_Center_Name,
+    d.Disease_Name,
+    rd.Description,
+    rd.Research_date
+FROM 
+    Research_Data rd
+    JOIN Researcher r ON rd.Researcher_ID = r.Researcher_ID
+    JOIN Research_Center rc ON r.Research_center_ID = rc.Research_center_ID
+    JOIN Disease d ON rd.Disease_ID = d.Disease_ID
+WHERE 
+    rd.Research_date >= '2024-10-01'
+ORDER BY 
+    rd.Research_date DESC;
+
+
+
+SELECT 
+    mc.Medical_center_name,
+    d.Disease_Name,
+    COUNT(a.Admission_ID) AS Admission_Count,
+    GROUP_CONCAT(a.Admission_date ORDER BY a.Admission_date) AS Admission_Dates
+FROM 
+    Admission a
+    JOIN Medical_Center mc ON a.Medical_center_ID = mc.Medical_center_ID
+    JOIN Disease d ON a.Disease_ID = d.Disease_ID
+WHERE 
+    d.Disease_ID IN ('D036', 'D037', 'D038', 'D039', 'D040', 'D054', 'D055') -- Breast, Lung, Prostate, Colorectal Cancer, Leukemia, Heart Failure, Stroke
+GROUP BY 
+    mc.Medical_center_name,
+    d.Disease_Name
+HAVING 
+    Admission_Count > 0
+ORDER BY 
+    Admission_Count DESC, mc.Medical_center_name;
+
+
+SELECT 
+    d.Disease_Name,
+    COUNT(t.Treatment_ID) AS Total_Treatments,
+    SUM(CASE WHEN t.Treatment_end_date IS NOT NULL THEN 1 ELSE 0 END) AS Completed_Treatments,
+    ROUND((SUM(CASE WHEN t.Treatment_end_date IS NOT NULL THEN 1 ELSE 0 END) * 100.0) / COUNT(t.Treatment_ID), 2) AS Completion_Rate_Percent
+FROM 
+    Treatment t
+    JOIN Admission a ON t.Admission_ID = a.Admission_ID
+    JOIN Disease d ON a.Disease_ID = d.Disease_ID
+GROUP BY 
+    d.Disease_Name
+HAVING 
+    Total_Treatments > 0
+ORDER BY 
+    Completion_Rate_Percent DESC;
+
+
+SELECT 
+    d.Disease_Name,
+    ac.Name AS Campaign_Name,
+    ac.Start_date AS Campaign_Start,
+    ac.End_date AS Campaign_End,
+    rd.Description AS Research_Description,
+    rd.Research_date
+FROM 
+    Awareness_campaign ac
+    JOIN Campaign_disease cd ON ac.Campaign_ID = cd.Campaign_ID
+    JOIN Disease d ON cd.Disease_ID = d.Disease_ID
+    JOIN Research_Data rd ON rd.Disease_ID = d.Disease_ID
+WHERE 
+    rd.Research_date BETWEEN ac.Start_date AND COALESCE(ac.End_date, '2025-04-13')
+ORDER BY 
+    d.Disease_Name, rd.Research_date;
+
+
+SELECT 
+    au.Name AS Staff_Name,
+    sr.role_name,
+    GROUP_CONCAT(DISTINCT mc.Medical_center_name ORDER BY mc.Medical_center_name) AS Medical_Centers,
+    COUNT(t.Treatment_ID) AS Treatment_Count
+FROM 
+    Medical_Staff ms
+    JOIN App_User au ON ms.User_ID = au.User_ID
+    JOIN Staff_role sr ON ms.role_id = sr.role_id
+    JOIN Treatment t ON ms.Medical_Staff_ID = t.Medical_staff_ID
+    JOIN Admission a ON t.Admission_ID = a.Admission_ID
+    JOIN Medical_Center mc ON a.Medical_center_ID = mc.Medical_center_ID
+GROUP BY 
+    au.Name,
+    sr.role_name
+HAVING 
+    Treatment_Count > 0
+ORDER BY 
+    Treatment_Count DESC;
+
+
+SELECT DISTINCT
+    d.Disease_Name,
+    COUNT(a.Admission_ID) AS Admission_Count
+FROM 
+    Admission a
+    JOIN Disease d ON a.Disease_ID = d.Disease_ID
+    LEFT JOIN Vaccine v ON d.Disease_ID = v.Disease_ID
+WHERE 
+    v.Vaccine_ID IS NULL
+GROUP BY 
+    d.Disease_Name
+ORDER BY 
+    Admission_Count DESC;
+
+
+SELECT 
+    au.Name AS Researcher_Name,
+    d.Disease_Name,
+    COUNT(rd.Data_ID) AS Study_Count,
+    MIN(rd.Research_date) AS Earliest_Study,
+    MAX(rd.Research_date) AS Latest_Study
+FROM 
+    Research_Data rd
+    JOIN Researcher r ON rd.Researcher_ID = r.Researcher_ID
+    JOIN App_User au ON r.User_ID = au.User_ID
+    JOIN Disease d ON rd.Disease_ID = d.Disease_ID
+WHERE 
+    d.Disease_ID IN ('D036', 'D037', 'D038', 'D039', 'D040') -- Cancers
+GROUP BY 
+    au.Name,
+    d.Disease_Name
+ORDER BY 
+    Study_Count DESC, au.Name;
+
+
+SELECT 
+    d.Disease_Name,
+    ac.Name AS Campaign_Name,
+    ac.Start_date,
+    ac.End_date,
+    SUM(CASE WHEN a.Admission_date < ac.Start_date THEN 1 ELSE 0 END) AS Admissions_Before,
+    SUM(CASE WHEN a.Admission_date BETWEEN ac.Start_date AND COALESCE(ac.End_date, '2025-04-13') THEN 1 ELSE 0 END) AS Admissions_During
+FROM 
+    Awareness_campaign ac
+    JOIN Campaign_disease cd ON ac.Campaign_ID = cd.Campaign_ID
+    JOIN Disease d ON cd.Disease_ID = d.Disease_ID
+    LEFT JOIN Admission a ON d.Disease_ID = a.Disease_ID
+WHERE 
+    d.Disease_ID = 'D001' -- Influenza
+GROUP BY 
+    d.Disease_Name,
+    ac.Name,
+    ac.Start_date,
+    ac.End_date;
+
+
+SELECT 
+    d.Disease_Name,
+    t.Description AS Treatment_Description,
+    mrt.Resource_type_name,
+    mr.Quantity AS Available_Stock,
+    mc.Medical_center_name
+FROM 
+    Treatment t
+    JOIN Admission a ON t.Admission_ID = a.Admission_ID
+    JOIN Disease d ON a.Disease_ID = d.Disease_ID
+    JOIN Medical_Center mc ON a.Medical_center_ID = mc.Medical_center_ID
+    JOIN Medical_resources mr ON mc.Medical_center_ID = mr.Medical_center_ID
+    JOIN Medical_resource_type mrt ON mr.Resource_type_ID = mrt.Resource_type_ID
+WHERE 
+    mrt.Resource_type_ID = 'RT002' -- Ventilators
+    AND t.Description LIKE '%oxygen%' OR t.Description LIKE '%ventilator%'
+ORDER BY 
+    mr.Quantity ASC;
+
+
+
+
